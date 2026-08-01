@@ -3,3 +3,4 @@ dist
 coverage
 assets/quran
 package-lock.json
+supabase/.temp

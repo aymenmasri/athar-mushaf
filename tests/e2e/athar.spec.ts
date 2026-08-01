@@ -6,6 +6,31 @@ test.beforeEach(async ({ page }) => {
   await page.reload();
 });
 
+test('publishes the Arabic social metadata and preview image', async ({ page }) => {
+  const title = 'أثر — مصحفٌ يبقى لمن تحب';
+  const description = 'أهدِ من تحب مصحفًا رقميًا يحمل اسمه، واكتب له كلمة تبقى أثرًا من نور.';
+  const imageUrl = 'https://athar-mushaf.expo.app/og-athar.png';
+
+  await expect(page).toHaveTitle(title);
+  await expect(page.locator('html')).toHaveAttribute('lang', 'ar');
+  await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
+  await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', description);
+  await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', title);
+  await expect(page.locator('meta[property="og:description"]')).toHaveAttribute(
+    'content',
+    description,
+  );
+  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', imageUrl);
+  await expect(page.locator('meta[name="twitter:card"]')).toHaveAttribute(
+    'content',
+    'summary_large_image',
+  );
+
+  const preview = await page.request.get('/og-athar.png');
+  expect(preview.ok()).toBe(true);
+  expect(preview.headers()['content-type']).toBe('image/png');
+});
+
 test('creates and previews a local dedication', async ({ page }) => {
   await expect(page.getByText('أثر', { exact: true }).first()).toBeVisible();
   await page.getByRole('button', { name: 'أنشئ إهداءً' }).click();

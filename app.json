@@ -4,7 +4,7 @@
     "slug": "athar-mushaf",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/athar-icon.png",
+    "icon": "./assets/images/icon.png",
     "scheme": "athar",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -21,8 +21,12 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "name": "أثر",
+      "shortName": "أثر",
       "output": "single",
-      "favicon": "./assets/images/athar-icon.png"
+      "favicon": "./assets/images/favicon.png",
+      "lang": "ar",
+      "dir": "rtl"
     },
     "plugins": [
       [
@@ -48,6 +52,17 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": "production"
+        }
+      },
+      "eas": {
+        "projectId": "50f50169-648e-4a18-b992-9587da27d5e6"
+      }
+    },
+    "owner": "aymen.masri"
   }
 }
