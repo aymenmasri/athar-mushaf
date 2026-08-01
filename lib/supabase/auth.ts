@@ -4,31 +4,66 @@ import { requireSupabaseClient, type AtharSupabaseClient } from '@/lib/supabase/
 
 let pendingSession: Promise<User> | null = null;
 
+export const SUPABASE_AUTH_ERROR_MESSAGE =
+  'تعذّر إنشاء جلسة آمنة لنشر الإهداء. تحقّق من الاتصال ثم حاول مرة أخرى.';
+
+export class SupabaseAuthenticationError extends Error {
+  readonly code = 'SUPABASE_AUTH_FAILED';
+  readonly originalError: unknown;
+
+  constructor(originalError?: unknown) {
+    super(SUPABASE_AUTH_ERROR_MESSAGE);
+    this.name = 'SupabaseAuthenticationError';
+    this.originalError = originalError;
+  }
+}
+
+/** Reads the persisted session without creating an anonymous account. */
+export async function getCurrentSupabaseUser(
+  client: AtharSupabaseClient = requireSupabaseClient(),
+): Promise<User | null> {
+  try {
+    const {
+      data: { session },
+      error,
+    } = await client.auth.getSession();
+
+    if (error) {
+      throw new SupabaseAuthenticationError(error);
+    }
+
+    return session?.user ?? null;
+  } catch (error) {
+    if (error instanceof SupabaseAuthenticationError) {
+      throw error;
+    }
+
+    throw new SupabaseAuthenticationError(error);
+  }
+}
+
 async function resolveSession(client: AtharSupabaseClient): Promise<User> {
-  const {
-    data: { session },
-    error: sessionError,
-  } = await client.auth.getSession();
+  const currentUser = await getCurrentSupabaseUser(client);
 
-  if (sessionError) {
-    throw sessionError;
+  if (currentUser) {
+    return currentUser;
   }
 
-  if (session?.user) {
-    return session.user;
+  try {
+    const { data, error } = await client.auth.signInAnonymously();
+
+    if (error || !data.user) {
+      throw new SupabaseAuthenticationError(error);
+    }
+
+    return data.user;
+  } catch (error) {
+    if (error instanceof SupabaseAuthenticationError) {
+      throw error;
+    }
+
+    throw new SupabaseAuthenticationError(error);
   }
-
-  const { data, error } = await client.auth.signInAnonymously();
-
-  if (error) {
-    throw error;
-  }
-
-  if (!data.user) {
-    throw new Error('Supabase did not return a user for the anonymous session.');
-  }
-
-  return data.user;
 }
 
 /**

@@ -15,7 +15,7 @@ type DedicationCoverProps = {
 };
 
 const statusLabels = {
-  living: 'إهداء بمحبة',
+  alive: 'إهداء بمحبة',
   deceased: 'إهداء إلى من رحل',
   unspecified: 'إهداء خاص',
 } as const;

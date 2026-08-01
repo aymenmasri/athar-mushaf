@@ -1,5 +1,8 @@
 export type Json = string | number | boolean | null | { [key: string]: Json | undefined } | Json[];
 
+export type DatabaseRecipientStatus = 'alive' | 'deceased' | 'unspecified';
+export type DatabaseDedicationVisibility = 'unlisted';
+
 export type Database = {
   public: {
     Tables: {
@@ -36,11 +39,11 @@ export type Database = {
           is_active: boolean;
           message: string;
           recipient_name: string;
-          recipient_status: string;
+          recipient_status: DatabaseRecipientStatus;
           slug: string;
           theme_key: string;
           updated_at: string;
-          visibility: string;
+          visibility: DatabaseDedicationVisibility;
         };
         Insert: {
           created_at?: string;
@@ -50,11 +53,11 @@ export type Database = {
           is_active?: boolean;
           message: string;
           recipient_name: string;
-          recipient_status: string;
+          recipient_status: DatabaseRecipientStatus;
           slug?: string;
           theme_key: string;
           updated_at?: string;
-          visibility?: string;
+          visibility?: DatabaseDedicationVisibility;
         };
         Update: {
           created_at?: string;
@@ -64,11 +67,11 @@ export type Database = {
           is_active?: boolean;
           message?: string;
           recipient_name?: string;
-          recipient_status?: string;
+          recipient_status?: DatabaseRecipientStatus;
           slug?: string;
           theme_key?: string;
           updated_at?: string;
-          visibility?: string;
+          visibility?: DatabaseDedicationVisibility;
         };
         Relationships: [
           {
@@ -134,7 +137,7 @@ export type Database = {
           giver_name: string;
           message: string;
           recipient_name: string;
-          recipient_status: string;
+          recipient_status: DatabaseRecipientStatus;
           slug: string;
           theme_key: string;
         }[];

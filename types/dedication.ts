@@ -1,4 +1,4 @@
-export const RECIPIENT_STATUSES = ['living', 'deceased', 'unspecified'] as const;
+export const RECIPIENT_STATUSES = ['alive', 'deceased', 'unspecified'] as const;
 
 export type RecipientStatus = (typeof RECIPIENT_STATUSES)[number];
 

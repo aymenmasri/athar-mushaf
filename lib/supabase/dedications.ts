@@ -1,13 +1,13 @@
-import { ensureSupabaseUser } from '@/lib/supabase/auth';
+import { ensureSupabaseUser, getCurrentSupabaseUser } from '@/lib/supabase/auth';
 import { requireSupabaseClient } from '@/lib/supabase/client';
 import type { DedicationRow, PublicDedicationRow } from '@/lib/supabase/database.types';
 import { assertValidDedicationSlug } from '@/lib/supabase/slug';
+import { dedicationDraftSchema } from '@/lib/validation/dedication';
 import type {
   Dedication,
   DedicationDraft,
   DedicationUpdate,
   PublicDedication,
-  RecipientStatus,
 } from '@/types/dedication';
 
 function toDedication(row: DedicationRow): Dedication {
@@ -15,7 +15,7 @@ function toDedication(row: DedicationRow): Dedication {
     id: row.id,
     slug: row.slug,
     recipientName: row.recipient_name,
-    recipientStatus: row.recipient_status as RecipientStatus,
+    recipientStatus: row.recipient_status,
     giverName: row.giver_name,
     message: row.message,
     themeKey: row.theme_key,
@@ -30,7 +30,7 @@ function toPublicDedication(row: PublicDedicationRow): PublicDedication {
   return {
     slug: row.slug,
     recipientName: row.recipient_name,
-    recipientStatus: row.recipient_status as RecipientStatus,
+    recipientStatus: row.recipient_status,
     giverName: row.giver_name,
     message: row.message,
     themeKey: row.theme_key,
@@ -38,21 +38,14 @@ function toPublicDedication(row: PublicDedicationRow): PublicDedication {
   };
 }
 
-function cleanDraft(draft: DedicationDraft): DedicationDraft {
-  return {
-    ...draft,
-    recipientName: draft.recipientName.trim(),
-    giverName: draft.giverName.trim(),
-    message: draft.message.trim(),
-    themeKey: draft.themeKey.trim(),
-  };
-}
-
 export async function createDedication(draft: DedicationDraft): Promise<Dedication> {
+  const cleaned = dedicationDraftSchema.parse(draft);
   const client = requireSupabaseClient();
-  await ensureSupabaseUser(client);
+  const user = await ensureSupabaseUser(client);
 
-  const cleaned = cleanDraft(draft);
+  // The database deliberately owns slug, created_by, visibility and is_active:
+  // its trigger/defaults bind them to cryptographic randomness and auth.uid(),
+  // while column grants prevent a client from spoofing those identity fields.
   const { data, error } = await client
     .from('dedications')
     .insert({
@@ -67,6 +60,9 @@ export async function createDedication(draft: DedicationDraft): Promise<Dedicati
 
   if (error) {
     throw error;
+  }
+  if (data.created_by !== user.id) {
+    throw new Error('تعذّر التحقق من ملكية الإهداء المنشور.');
   }
 
   return toDedication(data);
@@ -90,7 +86,11 @@ export async function getOwnedDedication(slug: string): Promise<Dedication | nul
   assertValidDedicationSlug(slug);
 
   const client = requireSupabaseClient();
-  const user = await ensureSupabaseUser(client);
+  const user = await getCurrentSupabaseUser(client);
+  if (!user) {
+    return null;
+  }
+
   const { data, error } = await client
     .from('dedications')
     .select('*')
@@ -107,7 +107,11 @@ export async function getOwnedDedication(slug: string): Promise<Dedication | nul
 
 export async function listOwnedDedications(): Promise<Dedication[]> {
   const client = requireSupabaseClient();
-  const user = await ensureSupabaseUser(client);
+  const user = await getCurrentSupabaseUser(client);
+  if (!user) {
+    return [];
+  }
+
   const { data, error } = await client
     .from('dedications')
     .select('*')
@@ -128,7 +132,11 @@ export async function updateOwnedDedication(
   assertValidDedicationSlug(slug);
 
   const client = requireSupabaseClient();
-  const user = await ensureSupabaseUser(client);
+  const user = await getCurrentSupabaseUser(client);
+  if (!user) {
+    return null;
+  }
+
   const payload = {
     ...(update.giverName === undefined ? {} : { giver_name: update.giverName.trim() }),
     ...(update.message === undefined ? {} : { message: update.message.trim() }),
@@ -159,7 +167,11 @@ export async function deleteOwnedDedication(slug: string): Promise<boolean> {
   assertValidDedicationSlug(slug);
 
   const client = requireSupabaseClient();
-  const user = await ensureSupabaseUser(client);
+  const user = await getCurrentSupabaseUser(client);
+  if (!user) {
+    return false;
+  }
+
   const { data, error } = await client
     .from('dedications')
     .delete()

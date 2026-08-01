@@ -20,6 +20,7 @@ import {
 import {
   addSyncedBookmark,
   getSyncedReadingProgress,
+  getCurrentSupabaseUser,
   isSupabaseConfigured,
   listSyncedBookmarks,
   removeSyncedBookmark,
@@ -63,6 +64,16 @@ export function ReadingProvider({ children }: PropsWithChildren) {
 
         if (isSupabaseConfigured) {
           try {
+            // Opening a public page must not create an anonymous account. Sync
+            // existing sessions only; write actions create a session on demand.
+            const currentUser = await getCurrentSupabaseUser();
+            if (!mounted) return;
+            if (!currentUser) {
+              setProgress(mergedProgress);
+              setBookmarks(mergedBookmarks);
+              setHydrated(true);
+              return;
+            }
             const [remoteProgress, remoteBookmarks] = await Promise.all([
               getSyncedReadingProgress(),
               listSyncedBookmarks(),

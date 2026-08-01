@@ -44,8 +44,15 @@ export default function ManageDedicationScreen() {
   const [themeKey, setThemeKey] = useState('emerald');
   const [feedback, setFeedback] = useState<string | null>(null);
   const [confirmDelete, setConfirmDelete] = useState(false);
-  const url = useMemo(() => (slug ? getPublicDedicationUrl(slug) : ''), [slug]);
   const localOnly = Boolean(slug?.startsWith('local-'));
+  const url = useMemo(() => {
+    if (!slug || localOnly || !dedication?.isActive) return null;
+    try {
+      return getPublicDedicationUrl(slug);
+    } catch {
+      return null;
+    }
+  }, [dedication?.isActive, localOnly, slug]);
 
   useEffect(() => {
     let mounted = true;
@@ -231,38 +238,66 @@ export default function ManageDedicationScreen() {
 
         <View style={styles.tools}>
           <Card style={styles.qrCard}>
-            <View style={[styles.qrFrame, { borderColor: theme.border }]}>
-              <QRCode value={url} size={150} color="#173E34" backgroundColor="#FFFFFF" />
-            </View>
-            <AppButton
-              label="نسخ الرابط"
-              icon="copy-outline"
-              variant="secondary"
-              loading={operation === 'copy'}
-              onPress={() => {
-                setOperation('copy');
-                void copyPublicLink(url)
-                  .then(() => setFeedback('تم نسخ الرابط'))
-                  .catch(() => setFeedback('تعذّر نسخ الرابط.'))
-                  .finally(() => setOperation(null));
-              }}
-              fullWidth
-            />
+            {url ? (
+              <>
+                <View style={[styles.qrFrame, { borderColor: theme.border }]}>
+                  <QRCode value={url} size={150} color="#173E34" backgroundColor="#FFFFFF" />
+                </View>
+                <AppButton
+                  label="نسخ الرابط"
+                  icon="copy-outline"
+                  variant="secondary"
+                  loading={operation === 'copy'}
+                  disabled={operation !== null || saving}
+                  onPress={() => {
+                    setOperation('copy');
+                    void copyPublicLink(url)
+                      .then(() => setFeedback('تم نسخ الرابط'))
+                      .catch(() => setFeedback('تعذّر نسخ الرابط.'))
+                      .finally(() => setOperation(null));
+                  }}
+                  fullWidth
+                />
+              </>
+            ) : (
+              <>
+                <AppText color={theme.muted} align="center">
+                  {localOnly
+                    ? 'هذا الإهداء محفوظ على هذا الجهاز فقط ولا يمكن مشاركته.'
+                    : 'هذه الصفحة متوقفة، لذلك لا يوجد رابط عام قابل للمشاركة.'}
+                </AppText>
+                {localOnly ? (
+                  <AppButton
+                    label="نشر الإهداء"
+                    icon="cloud-upload-outline"
+                    onPress={() =>
+                      router.push({
+                        pathname: '/dedication/[slug]',
+                        params: { slug: dedication.slug },
+                      })
+                    }
+                    fullWidth
+                  />
+                ) : null}
+              </>
+            )}
           </Card>
           <Card style={styles.dangerCard}>
             <View style={styles.dangerHeading}>
               <Ionicons name="shield-outline" size={24} color={theme.danger} />
               <AppText variant="title">التحكم في الصفحة</AppText>
             </View>
-            <AppButton
-              label={dedication.isActive ? 'إيقاف الصفحة' : 'إعادة تفعيل الصفحة'}
-              icon={dedication.isActive ? 'pause-circle-outline' : 'play-circle-outline'}
-              variant="ghost"
-              loading={operation === 'toggle'}
-              disabled={operation !== null}
-              onPress={() => void toggleActive()}
-              fullWidth
-            />
+            {!localOnly ? (
+              <AppButton
+                label={dedication.isActive ? 'إيقاف الصفحة' : 'إعادة تفعيل الصفحة'}
+                icon={dedication.isActive ? 'pause-circle-outline' : 'play-circle-outline'}
+                variant="ghost"
+                loading={operation === 'toggle'}
+                disabled={operation !== null || saving}
+                onPress={() => void toggleActive()}
+                fullWidth
+              />
+            ) : null}
             {!confirmDelete ? (
               <AppButton
                 label="حذف الإهداء نهائيًا"

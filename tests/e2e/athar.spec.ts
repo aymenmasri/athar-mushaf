@@ -1,16 +1,13 @@
 import { expect, test } from '@playwright/test';
 
-test.beforeEach(async ({ page }) => {
-  await page.goto('/');
-  await page.evaluate(() => localStorage.clear());
-  await page.reload();
-});
+import { FakeSupabase } from './support/fake-supabase';
 
 test('publishes the Arabic social metadata and preview image', async ({ page }) => {
   const title = 'أثر — مصحفٌ يبقى لمن تحب';
   const description = 'أهدِ من تحب مصحفًا رقميًا يحمل اسمه، واكتب له كلمة تبقى أثرًا من نور.';
   const imageUrl = 'https://athar-mushaf.expo.app/og-athar.png';
 
+  await page.goto('/');
   await expect(page).toHaveTitle(title);
   await expect(page.locator('html')).toHaveAttribute('lang', 'ar');
   await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
@@ -31,18 +28,47 @@ test('publishes the Arabic social metadata and preview image', async ({ page }) 
   expect(preview.headers()['content-type']).toBe('image/png');
 });
 
-test('creates and previews a local dedication', async ({ page }) => {
-  await expect(page.getByText('أثر', { exact: true }).first()).toBeVisible();
-  await page.getByRole('button', { name: 'أنشئ إهداءً' }).click();
-  await page.getByLabel('اسم المُهدى إليه').fill('مريم العلي');
-  await page.getByLabel('اسم صاحب الإهداء').fill('سليم العلي');
-  await page.getByLabel('رسالة الإهداء').fill('كلمة محبة تبقى أثرًا جميلًا.');
-  await page.getByRole('checkbox').click();
-  await page.getByRole('button', { name: 'معاينة الإهداء' }).click();
-  await expect(page.getByText('إهداء إلى مريم العلي')).toBeVisible();
-  await page.getByRole('button', { name: 'تأكيد الإهداء' }).click();
-  await expect(page).toHaveURL(/\/dedication\/local-/u);
-  await expect(page.getByText('كلمة محبة تبقى أثرًا جميلًا.')).toBeVisible();
+test('publishes remotely and opens the dedication in an independent browser', async ({
+  browser,
+}) => {
+  const baseURL = test.info().project.use.baseURL as string;
+  const supabase = new FakeSupabase();
+  const creatorContext = await browser.newContext({ baseURL, locale: 'ar' });
+  const readerContext = await browser.newContext({ baseURL, locale: 'ar' });
+
+  await supabase.attach(creatorContext, 'creator');
+  await supabase.attach(readerContext, 'reader');
+
+  try {
+    const creatorPage = await creatorContext.newPage();
+    await creatorPage.goto('/');
+    await expect(creatorPage.getByText('أثر', { exact: true }).first()).toBeVisible();
+    await creatorPage.getByRole('button', { name: 'أنشئ إهداءً' }).click();
+    await creatorPage.getByLabel('اسم المُهدى إليه').fill('مريم العلي');
+    await creatorPage.getByLabel('اسم صاحب الإهداء').fill('سليم العلي');
+    await creatorPage.getByLabel('رسالة الإهداء').fill('كلمة محبة تبقى أثرًا جميلًا.');
+    await creatorPage.getByRole('checkbox').click();
+    await creatorPage.getByRole('button', { name: 'معاينة الإهداء' }).click();
+    await expect(creatorPage.getByText('إهداء إلى مريم العلي')).toBeVisible();
+    await creatorPage.getByRole('button', { name: 'نشر الإهداء' }).click();
+    await expect(creatorPage).toHaveURL(/\/dedication\/d_[0-9a-f]{32}\/?$/u);
+    expect(supabase.signInCount('creator')).toBe(1);
+
+    const publishedUrl = creatorPage.url();
+    expect(publishedUrl).not.toContain('local-');
+
+    const readerPage = await readerContext.newPage();
+    await readerPage.goto(publishedUrl);
+    await expect(readerPage.getByText('إهداء إلى مريم العلي', { exact: true })).toBeVisible();
+    await expect(readerPage.getByText('من سليم العلي', { exact: true })).toBeVisible();
+    await expect(
+      readerPage.getByText('كلمة محبة تبقى أثرًا جميلًا.', { exact: true }),
+    ).toBeVisible();
+    expect(supabase.signInCount('reader')).toBe(0);
+  } finally {
+    await creatorContext.close();
+    await readerContext.close();
+  }
 });
 
 test('finds Al-Ikhlas and persists an ayah bookmark', async ({ page }) => {

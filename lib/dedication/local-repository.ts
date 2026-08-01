@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Crypto from 'expo-crypto';
 
 import { STORAGE_KEYS } from '@/lib/storage/keys';
+import { isValidDedicationSlug } from '@/lib/supabase/slug';
 import type { Dedication, DedicationDraft, DedicationUpdate } from '@/types/dedication';
 
 function makeSlug(): string {
@@ -21,6 +22,25 @@ async function readAll(): Promise<Dedication[]> {
 
 async function writeAll(items: Dedication[]): Promise<void> {
   await AsyncStorage.setItem(STORAGE_KEYS.dedications, JSON.stringify(items));
+}
+
+async function readPublicationMappings(): Promise<Record<string, string>> {
+  const raw = await AsyncStorage.getItem(STORAGE_KEYS.dedicationPublications);
+  if (!raw) return {};
+
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+
+    return Object.fromEntries(
+      Object.entries(parsed).filter(
+        (entry): entry is [string, string] =>
+          entry[0].startsWith('local-') && isValidDedicationSlug(entry[1]),
+      ),
+    );
+  } catch {
+    return {};
+  }
 }
 
 export async function createLocalDedication(draft: DedicationDraft): Promise<Dedication> {
@@ -77,4 +97,26 @@ export async function deleteLocalDedication(slug: string): Promise<boolean> {
   if (next.length === current.length) return false;
   await writeAll(next);
   return true;
+}
+
+/** Records the remote replacement before the local copy is removed. */
+export async function savePublishedDedicationMapping(
+  localSlug: string,
+  remoteSlug: string,
+): Promise<void> {
+  if (!localSlug.startsWith('local-')) {
+    throw new TypeError('A publication mapping requires a local dedication slug.');
+  }
+  if (!isValidDedicationSlug(remoteSlug)) {
+    throw new TypeError('A publication mapping requires a valid remote dedication slug.');
+  }
+
+  const mappings = await readPublicationMappings();
+  mappings[localSlug] = remoteSlug;
+  await AsyncStorage.setItem(STORAGE_KEYS.dedicationPublications, JSON.stringify(mappings));
+}
+
+export async function getPublishedDedicationSlug(localSlug: string): Promise<string | null> {
+  const mappings = await readPublicationMappings();
+  return mappings[localSlug] ?? null;
 }

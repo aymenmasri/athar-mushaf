@@ -43,6 +43,8 @@ app-example
 # local test artifacts
 test-results/
 playwright-report/
+supabase/.temp/
+supabase/.branches/
 
 # generated native folders
 /ios

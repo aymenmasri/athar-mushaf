@@ -23,7 +23,7 @@ const safeName = (label: string) =>
         .refine((value) => !containsMarkup.test(value), 'الاسم يحتوي على رموز غير مسموحة'),
     );
 
-export const dedicationFormSchema = z.object({
+export const dedicationDraftSchema = z.object({
   recipientName: safeName('اسم المُهدى إليه'),
   giverName: safeName('اسم صاحب الإهداء'),
   message: z
@@ -38,6 +38,9 @@ export const dedicationFormSchema = z.object({
     ),
   recipientStatus: z.enum(RECIPIENT_STATUSES),
   themeKey: z.enum(['emerald', 'indigo', 'clay']),
+});
+
+export const dedicationFormSchema = dedicationDraftSchema.extend({
   visibility: z.literal('unlisted'),
   confirmed: z.boolean().refine((value) => value, 'يجب تأكيد فهم خصوصية الرابط'),
 });

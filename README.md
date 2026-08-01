@@ -94,12 +94,12 @@ EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_replace_me
 EXPO_PUBLIC_APP_URL=https://your-public-web-origin.example
 ```
 
-- **Mode démonstration** : activé si une valeur manque ou est invalide. Lecture, recherche, aperçu, progression et favoris restent locaux ; aucune vraie URL publique n'est créée.
+- **Mode démonstration** : activé si une valeur Supabase manque ou est invalide. Lecture, recherche, aperçu, progression et favoris restent disponibles. La publication publique est bloquée ; l'utilisateur peut choisir explicitement **« حفظ على هذا الجهاز فقط »**, mais cette copie `local-*` est annoncée comme non partageable et ne produit ni URL publique, ni QR, ni bouton WhatsApp.
 - **Mode connecté** : activé quand les deux valeurs sont valides. La dédicace peut être créée dans Supabase et ouverte via son slug public.
 
-`EXPO_PUBLIC_APP_URL` est facultative sur le Web, qui utilise son origine courante. Après déploiement, la définir avec l'URL HTTPS publique afin que les partages lancés depuis Android/iOS pointent vers la page Web, et non vers le seul deep link `athar://`.
+Sur le Web, l'adaptateur utilise `window.location.origin` : l'application doit donc être ouverte depuis l'origine HTTPS réellement déployée, et non depuis `localhost` ou une adresse LAN, avant de partager un lien. `EXPO_PUBLIC_APP_URL` ne remplace pas cette origine Web ; elle fournit cette même origine publique aux builds Android/iOS, où elle est obligatoire pour partager ou afficher le QR d'une dédicace. Sa valeur doit être une origine HTTPS sans chemin, paramètres ni fragment, par exemple `https://athar-mushaf.expo.app`. Un deep link `athar://` ou une URL Expo Go `exp://` n'est pas une URL publique et ne doit pas être envoyé au destinataire.
 
-Le préfixe `EXPO_PUBLIC_` signifie que la valeur est incorporée au bundle. La publishable key est conçue pour le client, mais elle ne remplace jamais la RLS. Ne jamais utiliser `service_role`, une Supabase secret key ou un jeton d'administration dans cette application.
+Le préfixe `EXPO_PUBLIC_` signifie que la valeur est remplacée dans le code et incorporée au bundle au moment de `expo export`, d'EAS Build ou d'une mise à jour. Ces trois valeurs sont donc publiques, même si EAS masque leur affichage. La publishable key est conçue pour le client, mais elle ne remplace jamais la RLS. Ne jamais utiliser `service_role`, une Supabase secret key ou un jeton d'administration dans cette application.
 
 ## Configuration Supabase
 
@@ -133,6 +133,20 @@ Avant toute mise en production, tester au minimum avec deux sessions distinctes 
 - favoris et progression ne sont lisibles et modifiables que par leur propriétaire.
 
 Une session anonyme est liée au stockage de l'appareil. Si l'utilisateur efface ses données avant d'avoir un compte permanent, il peut perdre l'accès de gestion ; cette limite doit rester visible dans l'interface.
+
+### Republier une ancienne dédicace `local-*`
+
+Les versions antérieures pouvaient enregistrer une dédicace uniquement dans AsyncStorage et produire une route telle que `/dedication/local-…`. Ce lien n'a jamais été public : il ne contient pas les données et ne peut pas être réparé depuis un autre appareil, un autre navigateur ou un profil privé.
+
+Pour publier cette ancienne copie dans Supabase :
+
+1. ne pas désinstaller l'application, effacer ses données ni vider le stockage du site d'origine ;
+2. configurer Supabase, puis ouvrir la route `/dedication/local-*` avec le même appareil et le même profil de navigateur que lors de la création ;
+3. vérifier l'aperçu, puis appuyer sur **`نشر الإهداء`** ;
+4. attendre la redirection vers une nouvelle route `/dedication/d_<32 caractères hexadécimaux>` ;
+5. copier et renvoyer ce nouveau lien public aux destinataires. L'ancien lien `local-*` ne doit plus être partagé.
+
+La publication crée une nouvelle dédicace distante et conserve son administration dans la session anonyme courante. Si la page locale ne s'ouvre plus sur l'appareil d'origine, le contenu absent de Supabase ne peut pas être récupéré par le serveur.
 
 ## Provenance du Coran
 
@@ -227,25 +241,39 @@ eas login
 eas init
 ```
 
-Déployer un aperçu Web puis promouvoir un export vérifié :
+Créer les trois variables clientes dans l'environnement EAS `production`. Les valeurs ci-dessous sont des exemples à remplacer ; leur visibilité `plaintext` est volontaire, car toute valeur `EXPO_PUBLIC_*` est de toute façon lisible dans le bundle client :
 
 ```bash
-npx expo export --platform web
-eas deploy
-eas deploy --prod
+eas env:create --environment production --visibility plaintext --name EXPO_PUBLIC_SUPABASE_URL --value "https://PROJECT_REF.supabase.co"
+eas env:create --environment production --visibility plaintext --name EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY --value "sb_publishable_REPLACE_ME"
+eas env:create --environment production --visibility plaintext --name EXPO_PUBLIC_APP_URL --value "https://athar-mushaf.expo.app"
+eas env:list --environment production
 ```
 
-La CLI affiche l'URL publique `expo.app`; aucun domaine personnalisé n'est requis pour le MVP. Refaire l'export après chaque changement. Les variables `EXPO_PUBLIC_*` nécessaires doivent être présentes pendant l'export, puisqu'elles sont intégrées au JavaScript livré.
+Si une variable existe déjà, utiliser `eas env:update` à la place de `eas env:create`. Ne jamais créer de variable `EXPO_PUBLIC_SERVICE_ROLE_KEY` ni placer une clé secrète dans ces commandes.
+
+Pour un export Web local destiné à EAS Hosting, récupérer d'abord l'environnement dans le fichier `.env.local` ignoré par Git. `npx expo export` incorpore les variables clientes dans `dist`; le drapeau de `eas deploy` ne peut pas modifier un bundle déjà exporté :
+
+```bash
+eas env:pull --environment production
+npx expo export --platform web
+eas deploy --environment production
+eas deploy --prod --environment production
+```
+
+Lors d'un premier déploiement, la CLI affiche l'URL publique `expo.app`. Si cette URL n'était pas connue, la renseigner ensuite dans `EXPO_PUBLIC_APP_URL`, puis refaire impérativement `eas env:pull`, l'export et le déploiement de production. Les déploiements sont immuables : toute modification d'une variable `EXPO_PUBLIC_*` exige un nouvel export et un nouveau déploiement.
 
 Attention : la documentation EAS Hosting publiée pour la version actuelle mentionne officiellement les sorties `static` et `server`, tandis que ce MVP exige `single` pour les slugs arbitraires. Valider `eas deploy` sur le compte Expo avant d'annoncer EAS Hosting comme cible opérationnelle. Si la CLI refuse ce format, conserver la SPA sur l'un des hébergeurs externes ci-dessous ou adapter explicitement l'architecture à `server` ; ne pas passer silencieusement à `static`, qui ne peut pas pré-générer les futurs slugs Supabase.
 
-`eas.json` prépare également les futurs binaires :
+`eas.json` associe explicitement le profil de build `production` à l'environnement EAS `production`. EAS Build injecte alors les trois variables pendant la compilation des futurs binaires :
 
 ```bash
 eas build --platform android --profile preview      # APK interne
 eas build --platform android --profile production   # AAB Play Store
 eas build --platform ios --profile production       # archive App Store
 ```
+
+Après une modification de variable, un binaire déjà installé conserve ses anciennes valeurs : relancer le build et distribuer la nouvelle version. Vérifier sur un appareil réel que le QR, WhatsApp, la copie et le partage natif contiennent une URL `https://…/dedication/d_…`, jamais `local-*`, `athar://`, `exp://`, `localhost` ou une adresse LAN.
 
 Avant le premier build signé, choisir et ajouter un `android.package` et un `ios.bundleIdentifier` uniques dans `app.json`. Le test quotidien du MVP reste Expo Go ; un development build nécessiterait `expo-dev-client`, qui ne doit pas être ajouté sans besoin natif réel.
 
@@ -291,6 +319,7 @@ Les évolutions envisagées et leurs conditions de provenance, licence et consen
 
 - [Publication Web avec Expo](https://docs.expo.dev/guides/publishing-websites/)
 - [EAS Hosting](https://docs.expo.dev/deploy/web/)
+- [Variables d'environnement EAS](https://docs.expo.dev/eas/environment-variables/)
 - [Configuration `eas.json`](https://docs.expo.dev/build/eas-json/)
 - [Supabase pour Expo React Native](https://supabase.com/docs/guides/getting-started/quickstarts/expo-react-native)
 - [Sessions anonymes Supabase](https://supabase.com/docs/guides/auth/auth-anonymous)

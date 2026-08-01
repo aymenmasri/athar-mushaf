@@ -12,7 +12,8 @@ import { AppHeader } from '@/components/layout/app-header';
 import { Screen } from '@/components/layout/screen';
 import { rtlRow, spacing } from '@/constants/theme';
 import { useAtharTheme } from '@/hooks/use-athar-theme';
-import { getLocalDedication } from '@/lib/dedication/local-repository';
+import { getLocalDedication, getPublishedDedicationSlug } from '@/lib/dedication/local-repository';
+import { publishLocalDedication } from '@/lib/dedication/publish-local';
 import {
   DEMO_DEDICATION,
   DEMO_DEDICATION_GIVER_LABEL,
@@ -23,11 +24,17 @@ import {
   getPublicDedication,
   isSupabaseConfigured,
 } from '@/lib/supabase';
-import type { PublicDedication } from '@/types/dedication';
+import type { Dedication, PublicDedication } from '@/types/dedication';
 
 type LoadState =
   | { status: 'loading' }
-  | { status: 'ready'; dedication: PublicDedication; localOnly: boolean; manageable: boolean }
+  | {
+      status: 'ready';
+      dedication: PublicDedication;
+      localOnly: boolean;
+      manageable: boolean;
+      localDedication?: Dedication;
+    }
   | { status: 'missing' }
   | { status: 'error'; message: string };
 
@@ -39,6 +46,8 @@ export default function PublicDedicationScreen() {
   const { width } = useWindowDimensions();
   const wide = width >= 900;
   const [state, setState] = useState<LoadState>({ status: 'loading' });
+  const [publishingLocal, setPublishingLocal] = useState(false);
+  const [publicationError, setPublicationError] = useState<string | null>(null);
 
   useEffect(() => {
     let mounted = true;
@@ -58,11 +67,22 @@ export default function PublicDedicationScreen() {
       }
       try {
         if (slug.startsWith('local-')) {
+          const publishedSlug = await getPublishedDedicationSlug(slug);
+          if (publishedSlug) {
+            router.replace({ pathname: '/dedication/[slug]', params: { slug: publishedSlug } });
+            return;
+          }
           const dedication = await getLocalDedication(slug);
           if (!mounted) return;
           setState(
             dedication
-              ? { status: 'ready', dedication, localOnly: true, manageable: true }
+              ? {
+                  status: 'ready',
+                  dedication,
+                  localDedication: dedication,
+                  localOnly: true,
+                  manageable: true,
+                }
               : { status: 'missing' },
           );
           return;
@@ -71,21 +91,27 @@ export default function PublicDedicationScreen() {
           setState({ status: 'missing' });
           return;
         }
-        const [dedication, owned] = await Promise.all([
-          getPublicDedication(slug),
-          getOwnedDedication(slug),
-        ]);
+        const dedication = await getPublicDedication(slug);
+        if (!mounted) return;
+        let manageable = false;
+        if (dedication) {
+          try {
+            manageable = Boolean(await getOwnedDedication(slug));
+          } catch {
+            // Ownership controls are best-effort and must never block public reading.
+          }
+        }
         if (!mounted) return;
         setState(
           dedication
-            ? { status: 'ready', dedication, localOnly: false, manageable: Boolean(owned) }
+            ? { status: 'ready', dedication, localOnly: false, manageable }
             : { status: 'missing' },
         );
-      } catch (error) {
+      } catch {
         if (!mounted) return;
         setState({
           status: 'error',
-          message: error instanceof Error ? error.message : 'تعذّر تحميل الإهداء.',
+          message: 'تعذّر تحميل الإهداء. تحقّق من الاتصال ثم حاول مرة أخرى.',
         });
       }
     }
@@ -93,7 +119,25 @@ export default function PublicDedicationScreen() {
     return () => {
       mounted = false;
     };
-  }, [slug]);
+  }, [router, slug]);
+
+  async function publishStoredDedication(localDedication: Dedication) {
+    setPublishingLocal(true);
+    setPublicationError(null);
+    try {
+      const published = await publishLocalDedication(localDedication);
+      router.replace({ pathname: '/dedication/[slug]', params: { slug: published.slug } });
+    } catch (error) {
+      const message = error instanceof Error ? error.message : '';
+      setPublicationError(
+        /[\u0600-\u06ff]/u.test(message)
+          ? message
+          : 'تعذّر نشر الإهداء الآن. بقي محفوظًا على هذا الجهاز ولم يُنشأ رابط عام.',
+      );
+    } finally {
+      setPublishingLocal(false);
+    }
+  }
 
   if (state.status === 'loading') {
     return (
@@ -123,7 +167,7 @@ export default function PublicDedicationScreen() {
     );
   }
 
-  const { dedication, localOnly, manageable } = state;
+  const { dedication, localOnly, manageable, localDedication } = state;
   const isDemoDedication = dedication.slug === DEMO_DEDICATION_SLUG;
   return (
     <Screen header={<AppHeader back />}>
@@ -152,7 +196,16 @@ export default function PublicDedicationScreen() {
               {isDemoDedication ? DEMO_MUSHAF_TITLE : 'مصحفٌ يبقى لمن تحب'}
             </AppText>
           </View>
-          <SharePanel slug={dedication.slug} localOnly={localOnly} />
+          <SharePanel
+            slug={dedication.slug}
+            localOnly={localOnly}
+            canPublishLocal={Boolean(localDedication)}
+            onPublishLocal={
+              localDedication ? () => void publishStoredDedication(localDedication) : undefined
+            }
+            publishingLocal={publishingLocal}
+            publicationError={publicationError}
+          />
           {manageable ? (
             <Pressable
               accessibilityRole="link"

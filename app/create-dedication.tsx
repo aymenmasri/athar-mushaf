@@ -25,7 +25,7 @@ import { useAtharTheme } from '@/hooks/use-athar-theme';
 import type { DedicationDraft, RecipientStatus } from '@/types/dedication';
 
 const statusOptions: { value: RecipientStatus; label: string }[] = [
-  { value: 'living', label: 'حي' },
+  { value: 'alive', label: 'حي' },
   { value: 'deceased', label: 'متوفى' },
   { value: 'unspecified', label: 'غير محدد' },
 ];
@@ -38,6 +38,7 @@ export default function CreateDedicationScreen() {
   const [preview, setPreview] = useState<ValidatedDedicationForm | null>(null);
   const [submissionError, setSubmissionError] = useState<string | null>(null);
   const [publishing, setPublishing] = useState(false);
+  const [offerLocalSave, setOfferLocalSave] = useState(false);
   const {
     control,
     handleSubmit,
@@ -61,30 +62,54 @@ export default function CreateDedicationScreen() {
 
   const showPreview = handleSubmit((valid) => {
     setSubmissionError(null);
+    setOfferLocalSave(false);
     setPreview(dedicationFormSchema.parse(valid));
   });
 
-  async function publish(valid: ValidatedDedicationForm) {
-    setPublishing(true);
-    setSubmissionError(null);
-    const draft: DedicationDraft = {
+  function toDraft(valid: ValidatedDedicationForm): DedicationDraft {
+    return {
       recipientName: valid.recipientName,
       giverName: valid.giverName,
       message: valid.message,
       recipientStatus: valid.recipientStatus,
       themeKey: valid.themeKey,
     };
+  }
+
+  async function publish(valid: ValidatedDedicationForm) {
+    if (!isSupabaseConfigured) {
+      setSubmissionError('تعذّر نشر الإهداء. يمكنك الاحتفاظ به على هذا الجهاز فقط.');
+      setOfferLocalSave(true);
+      return;
+    }
+
+    setPublishing(true);
+    setSubmissionError(null);
+    setOfferLocalSave(false);
     try {
-      const created = isSupabaseConfigured
-        ? await createDedication(draft)
-        : await createLocalDedication(draft);
+      const created = await createDedication(toDraft(valid));
       router.replace({ pathname: '/dedication/[slug]', params: { slug: created.slug } });
     } catch (error) {
+      const message = error instanceof Error ? error.message : '';
       setSubmissionError(
-        error instanceof Error
-          ? error.message
-          : 'تعذّر إنشاء الإهداء الآن. حاول مرة أخرى بعد قليل.',
+        /[\u0600-\u06ff]/u.test(message)
+          ? message
+          : 'تعذّر نشر الإهداء الآن. لم يتم إنشاء رابط عام. تحقّق من الاتصال ثم حاول مرة أخرى.',
       );
+      setOfferLocalSave(true);
+    } finally {
+      setPublishing(false);
+    }
+  }
+
+  async function saveOnThisDevice(valid: ValidatedDedicationForm) {
+    setPublishing(true);
+    setSubmissionError(null);
+    try {
+      const created = await createLocalDedication(toDraft(valid));
+      router.replace({ pathname: '/dedication/[slug]', params: { slug: created.slug } });
+    } catch {
+      setSubmissionError('تعذّر حفظ الإهداء على هذا الجهاز.');
     } finally {
       setPublishing(false);
     }
@@ -103,14 +128,13 @@ export default function CreateDedicationScreen() {
             </AppText>
             <AppText variant="headline">هل يبدو كل شيء صحيحًا؟</AppText>
             <AppText color={theme.muted}>
-              راجع الأسماء والرسالة بعناية. يمكنك العودة للتعديل قبل إنشاء الرابط.
+              راجع الأسماء والرسالة بعناية. يمكنك العودة للتعديل قبل النشر.
             </AppText>
             {!isSupabaseConfigured ? (
               <View style={[styles.notice, { backgroundColor: theme.primarySoft }]}>
                 <Ionicons name="information-circle-outline" size={22} color={theme.primary} />
                 <AppText variant="small" color={theme.textSoft} style={styles.noticeText}>
-                  وضع العرض مفعّل. سيُحفظ الإهداء على هذا الجهاز فقط، ولن يصبح الرابط عامًا حتى
-                  إعداد Supabase.
+                  تعذّر نشر الإهداء. يمكنك الاحتفاظ به على هذا الجهاز فقط.
                 </AppText>
               </View>
             ) : null}
@@ -120,13 +144,25 @@ export default function CreateDedicationScreen() {
               </AppText>
             ) : null}
             <View style={styles.previewActions}>
-              <AppButton
-                label="تأكيد الإهداء"
-                icon="checkmark-circle-outline"
-                onPress={() => void publish(preview)}
-                loading={publishing}
-                fullWidth
-              />
+              {isSupabaseConfigured ? (
+                <AppButton
+                  label="نشر الإهداء"
+                  icon="cloud-upload-outline"
+                  onPress={() => void publish(preview)}
+                  loading={publishing}
+                  fullWidth
+                />
+              ) : null}
+              {!isSupabaseConfigured || offerLocalSave ? (
+                <AppButton
+                  label="حفظ على هذا الجهاز فقط"
+                  icon="phone-portrait-outline"
+                  variant={isSupabaseConfigured ? 'secondary' : 'primary'}
+                  onPress={() => void saveOnThisDevice(preview)}
+                  loading={publishing}
+                  fullWidth
+                />
+              ) : null}
               <AppButton
                 label="تعديل"
                 icon="create-outline"
@@ -150,7 +186,9 @@ export default function CreateDedicationScreen() {
         </AppText>
         <AppText variant="headline">اكتب إهداءك بهدوء</AppText>
         <AppText color={theme.muted}>
-          لن يظهر الإهداء في دليل عام. من يملك الرابط فقط يستطيع الوصول إليه.
+          {isSupabaseConfigured
+            ? 'لن يظهر الإهداء في دليل عام. من يملك الرابط فقط يستطيع الوصول إليه.'
+            : 'يمكنك إعداد الإهداء ومعاينته، لكن النشر العام غير متاح دون إعداد Supabase.'}
         </AppText>
       </View>
 
@@ -295,7 +333,9 @@ export default function CreateDedicationScreen() {
               <View style={styles.visibilityCopy}>
                 <AppText>خاص عبر الرابط</AppText>
                 <AppText variant="small" color={theme.muted}>
-                  لا يوجد بحث عام أو قائمة إهداءات.
+                  {isSupabaseConfigured
+                    ? 'لا يوجد بحث عام أو قائمة إهداءات.'
+                    : 'لن يُنشأ رابط عام في وضع المعاينة.'}
                 </AppText>
               </View>
             </View>
@@ -326,7 +366,9 @@ export default function CreateDedicationScreen() {
                     ) : null}
                   </View>
                   <AppText style={styles.checkboxLabel}>
-                    أفهم أن كل من يملك الرابط يستطيع رؤية الإهداء.
+                    {isSupabaseConfigured
+                      ? 'أفهم أن كل من يملك الرابط يستطيع رؤية الإهداء.'
+                      : 'أفهم أن الحفظ على هذا الجهاز فقط لا ينشئ رابطًا عامًا.'}
                   </AppText>
                 </Pressable>
                 {errors.confirmed?.message ? (

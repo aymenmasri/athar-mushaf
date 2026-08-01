@@ -15,7 +15,7 @@
     "format:check": "prettier --check .",
     "test": "jest --runInBand",
     "test:watch": "jest --watch",
-    "pretest:e2e": "expo export --platform web",
+    "pretest:e2e": "node scripts/export-e2e.mjs",
     "test:e2e": "playwright test",
     "import:quran": "node scripts/import-quran.ts",
     "validate:quran": "node scripts/validate-quran.ts"

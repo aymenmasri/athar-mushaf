@@ -14,7 +14,7 @@ const draft = {
   recipientName: 'مريم العلي',
   giverName: 'سليم العلي',
   message: 'رسالة خاصة للاختبار.',
-  recipientStatus: 'living' as const,
+  recipientStatus: 'alive' as const,
   themeKey: 'emerald',
 };
 
