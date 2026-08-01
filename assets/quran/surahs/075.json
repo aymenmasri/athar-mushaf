@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 75,
+    "arabicName": "القيامة",
+    "transliteratedName": "Al-Qiyaama",
+    "englishName": "The Resurrection",
+    "revelationType": "makkah",
+    "ayahCount": 40,
+    "verses": [
+      {
+        "surahNumber": 75,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ لَآ أُقْسِمُ بِيَوْمِ ٱلْقِيَـٰمَةِ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 2,
+        "uthmaniText": "وَلَآ أُقْسِمُ بِٱلنَّفْسِ ٱللَّوَّامَةِ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 3,
+        "uthmaniText": "أَيَحْسَبُ ٱلْإِنسَـٰنُ أَلَّن نَّجْمَعَ عِظَامَهُۥ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 4,
+        "uthmaniText": "بَلَىٰ قَـٰدِرِينَ عَلَىٰٓ أَن نُّسَوِّىَ بَنَانَهُۥ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 5,
+        "uthmaniText": "بَلْ يُرِيدُ ٱلْإِنسَـٰنُ لِيَفْجُرَ أَمَامَهُۥ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 6,
+        "uthmaniText": "يَسْـَٔلُ أَيَّانَ يَوْمُ ٱلْقِيَـٰمَةِ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 7,
+        "uthmaniText": "فَإِذَا بَرِقَ ٱلْبَصَرُ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 8,
+        "uthmaniText": "وَخَسَفَ ٱلْقَمَرُ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 9,
+        "uthmaniText": "وَجُمِعَ ٱلشَّمْسُ وَٱلْقَمَرُ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 10,
+        "uthmaniText": "يَقُولُ ٱلْإِنسَـٰنُ يَوْمَئِذٍ أَيْنَ ٱلْمَفَرُّ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 11,
+        "uthmaniText": "كَلَّا لَا وَزَرَ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 12,
+        "uthmaniText": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمُسْتَقَرُّ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 13,
+        "uthmaniText": "يُنَبَّؤُا۟ ٱلْإِنسَـٰنُ يَوْمَئِذٍۭ بِمَا قَدَّمَ وَأَخَّرَ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 14,
+        "uthmaniText": "بَلِ ٱلْإِنسَـٰنُ عَلَىٰ نَفْسِهِۦ بَصِيرَةٌ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 15,
+        "uthmaniText": "وَلَوْ أَلْقَىٰ مَعَاذِيرَهُۥ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 16,
+        "uthmaniText": "لَا تُحَرِّكْ بِهِۦ لِسَانَكَ لِتَعْجَلَ بِهِۦٓ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 17,
+        "uthmaniText": "إِنَّ عَلَيْنَا جَمْعَهُۥ وَقُرْءَانَهُۥ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 18,
+        "uthmaniText": "فَإِذَا قَرَأْنَـٰهُ فَٱتَّبِعْ قُرْءَانَهُۥ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 19,
+        "uthmaniText": "ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُۥ",
+        "juzNumber": 29,
+        "pageNumber": 577
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 20,
+        "uthmaniText": "كَلَّا بَلْ تُحِبُّونَ ٱلْعَاجِلَةَ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 21,
+        "uthmaniText": "وَتَذَرُونَ ٱلْـَٔاخِرَةَ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 22,
+        "uthmaniText": "وُجُوهٌ يَوْمَئِذٍ نَّاضِرَةٌ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 23,
+        "uthmaniText": "إِلَىٰ رَبِّهَا نَاظِرَةٌ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 24,
+        "uthmaniText": "وَوُجُوهٌ يَوْمَئِذٍۭ بَاسِرَةٌ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 25,
+        "uthmaniText": "تَظُنُّ أَن يُفْعَلَ بِهَا فَاقِرَةٌ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 26,
+        "uthmaniText": "كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 27,
+        "uthmaniText": "وَقِيلَ مَنْ ۜ رَاقٍ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 28,
+        "uthmaniText": "وَظَنَّ أَنَّهُ ٱلْفِرَاقُ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 29,
+        "uthmaniText": "وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 30,
+        "uthmaniText": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 31,
+        "uthmaniText": "فَلَا صَدَّقَ وَلَا صَلَّىٰ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 32,
+        "uthmaniText": "وَلَـٰكِن كَذَّبَ وَتَوَلَّىٰ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 33,
+        "uthmaniText": "ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ يَتَمَطَّىٰٓ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 34,
+        "uthmaniText": "أَوْلَىٰ لَكَ فَأَوْلَىٰ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 35,
+        "uthmaniText": "ثُمَّ أَوْلَىٰ لَكَ فَأَوْلَىٰٓ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 36,
+        "uthmaniText": "أَيَحْسَبُ ٱلْإِنسَـٰنُ أَن يُتْرَكَ سُدًى",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 37,
+        "uthmaniText": "أَلَمْ يَكُ نُطْفَةً مِّن مَّنِىٍّ يُمْنَىٰ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 38,
+        "uthmaniText": "ثُمَّ كَانَ عَلَقَةً فَخَلَقَ فَسَوَّىٰ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 39,
+        "uthmaniText": "فَجَعَلَ مِنْهُ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      },
+      {
+        "surahNumber": 75,
+        "ayahNumber": 40,
+        "uthmaniText": "أَلَيْسَ ذَٰلِكَ بِقَـٰدِرٍ عَلَىٰٓ أَن يُحْـِۧىَ ٱلْمَوْتَىٰ",
+        "juzNumber": 29,
+        "pageNumber": 578
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 94,
+    "arabicName": "الشرح",
+    "transliteratedName": "Ash-Sharh",
+    "englishName": "The Consolation",
+    "revelationType": "makkah",
+    "ayahCount": 8,
+    "verses": [
+      {
+        "surahNumber": 94,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 94,
+        "ayahNumber": 2,
+        "uthmaniText": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 94,
+        "ayahNumber": 3,
+        "uthmaniText": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 94,
+        "ayahNumber": 4,
+        "uthmaniText": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 94,
+        "ayahNumber": 5,
+        "uthmaniText": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 94,
+        "ayahNumber": 6,
+        "uthmaniText": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 94,
+        "ayahNumber": 7,
+        "uthmaniText": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 94,
+        "ayahNumber": 8,
+        "uthmaniText": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+        "juzNumber": 30,
+        "pageNumber": 596
+      }
+    ]
+  }
+}

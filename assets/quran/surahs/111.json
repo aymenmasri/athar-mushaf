@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 111,
+    "arabicName": "المسد",
+    "transliteratedName": "Al-Masad",
+    "englishName": "The Palm Fibre",
+    "revelationType": "makkah",
+    "ayahCount": 5,
+    "verses": [
+      {
+        "surahNumber": 111,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+        "juzNumber": 30,
+        "pageNumber": 603
+      },
+      {
+        "surahNumber": 111,
+        "ayahNumber": 2,
+        "uthmaniText": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+        "juzNumber": 30,
+        "pageNumber": 603
+      },
+      {
+        "surahNumber": 111,
+        "ayahNumber": 3,
+        "uthmaniText": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+        "juzNumber": 30,
+        "pageNumber": 603
+      },
+      {
+        "surahNumber": 111,
+        "ayahNumber": 4,
+        "uthmaniText": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+        "juzNumber": 30,
+        "pageNumber": 603
+      },
+      {
+        "surahNumber": 111,
+        "ayahNumber": 5,
+        "uthmaniText": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ",
+        "juzNumber": 30,
+        "pageNumber": 603
+      }
+    ]
+  }
+}

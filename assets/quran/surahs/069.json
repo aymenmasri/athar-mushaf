@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 69,
+    "arabicName": "الحاقة",
+    "transliteratedName": "Al-Haaqqa",
+    "englishName": "The Reality",
+    "revelationType": "makkah",
+    "ayahCount": 52,
+    "verses": [
+      {
+        "surahNumber": 69,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ ٱلْحَآقَّةُ",
+        "juzNumber": 29,
+        "pageNumber": 566
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 2,
+        "uthmaniText": "مَا ٱلْحَآقَّةُ",
+        "juzNumber": 29,
+        "pageNumber": 566
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 3,
+        "uthmaniText": "وَمَآ أَدْرَىٰكَ مَا ٱلْحَآقَّةُ",
+        "juzNumber": 29,
+        "pageNumber": 566
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 4,
+        "uthmaniText": "كَذَّبَتْ ثَمُودُ وَعَادٌۢ بِٱلْقَارِعَةِ",
+        "juzNumber": 29,
+        "pageNumber": 566
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 5,
+        "uthmaniText": "فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ بِٱلطَّاغِيَةِ",
+        "juzNumber": 29,
+        "pageNumber": 566
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 6,
+        "uthmaniText": "وَأَمَّا عَادٌ فَأُهْلِكُوا۟ بِرِيحٍ صَرْصَرٍ عَاتِيَةٍ",
+        "juzNumber": 29,
+        "pageNumber": 566
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 7,
+        "uthmaniText": "سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍ وَثَمَـٰنِيَةَ أَيَّامٍ حُسُومًا فَتَرَى ٱلْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍ",
+        "juzNumber": 29,
+        "pageNumber": 566
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 8,
+        "uthmaniText": "فَهَلْ تَرَىٰ لَهُم مِّنۢ بَاقِيَةٍ",
+        "juzNumber": 29,
+        "pageNumber": 566
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 9,
+        "uthmaniText": "وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ وَٱلْمُؤْتَفِكَـٰتُ بِٱلْخَاطِئَةِ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 10,
+        "uthmaniText": "فَعَصَوْا۟ رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَّابِيَةً",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 11,
+        "uthmaniText": "إِنَّا لَمَّا طَغَا ٱلْمَآءُ حَمَلْنَـٰكُمْ فِى ٱلْجَارِيَةِ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 12,
+        "uthmaniText": "لِنَجْعَلَهَا لَكُمْ تَذْكِرَةً وَتَعِيَهَآ أُذُنٌ وَٰعِيَةٌ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 13,
+        "uthmaniText": "فَإِذَا نُفِخَ فِى ٱلصُّورِ نَفْخَةٌ وَٰحِدَةٌ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 14,
+        "uthmaniText": "وَحُمِلَتِ ٱلْأَرْضُ وَٱلْجِبَالُ فَدُكَّتَا دَكَّةً وَٰحِدَةً",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 15,
+        "uthmaniText": "فَيَوْمَئِذٍ وَقَعَتِ ٱلْوَاقِعَةُ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 16,
+        "uthmaniText": "وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍ وَاهِيَةٌ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 17,
+        "uthmaniText": "وَٱلْمَلَكُ عَلَىٰٓ أَرْجَآئِهَا ۚ وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍ ثَمَـٰنِيَةٌ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 18,
+        "uthmaniText": "يَوْمَئِذٍ تُعْرَضُونَ لَا تَخْفَىٰ مِنكُمْ خَافِيَةٌ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 19,
+        "uthmaniText": "فَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ فَيَقُولُ هَآؤُمُ ٱقْرَءُوا۟ كِتَـٰبِيَهْ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 20,
+        "uthmaniText": "إِنِّى ظَنَنتُ أَنِّى مُلَـٰقٍ حِسَابِيَهْ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 21,
+        "uthmaniText": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 22,
+        "uthmaniText": "فِى جَنَّةٍ عَالِيَةٍ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 23,
+        "uthmaniText": "قُطُوفُهَا دَانِيَةٌ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 24,
+        "uthmaniText": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَآ أَسْلَفْتُمْ فِى ٱلْأَيَّامِ ٱلْخَالِيَةِ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 25,
+        "uthmaniText": "وَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِشِمَالِهِۦ فَيَقُولُ يَـٰلَيْتَنِى لَمْ أُوتَ كِتَـٰبِيَهْ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 26,
+        "uthmaniText": "وَلَمْ أَدْرِ مَا حِسَابِيَهْ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 27,
+        "uthmaniText": "يَـٰلَيْتَهَا كَانَتِ ٱلْقَاضِيَةَ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 28,
+        "uthmaniText": "مَآ أَغْنَىٰ عَنِّى مَالِيَهْ ۜ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 29,
+        "uthmaniText": "هَلَكَ عَنِّى سُلْطَـٰنِيَهْ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 30,
+        "uthmaniText": "خُذُوهُ فَغُلُّوهُ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 31,
+        "uthmaniText": "ثُمَّ ٱلْجَحِيمَ صَلُّوهُ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 32,
+        "uthmaniText": "ثُمَّ فِى سِلْسِلَةٍ ذَرْعُهَا سَبْعُونَ ذِرَاعًا فَٱسْلُكُوهُ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 33,
+        "uthmaniText": "إِنَّهُۥ كَانَ لَا يُؤْمِنُ بِٱللَّهِ ٱلْعَظِيمِ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 34,
+        "uthmaniText": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+        "juzNumber": 29,
+        "pageNumber": 567
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 35,
+        "uthmaniText": "فَلَيْسَ لَهُ ٱلْيَوْمَ هَـٰهُنَا حَمِيمٌ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 36,
+        "uthmaniText": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 37,
+        "uthmaniText": "لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَـٰطِـُٔونَ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 38,
+        "uthmaniText": "فَلَآ أُقْسِمُ بِمَا تُبْصِرُونَ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 39,
+        "uthmaniText": "وَمَا لَا تُبْصِرُونَ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 40,
+        "uthmaniText": "إِنَّهُۥ لَقَوْلُ رَسُولٍ كَرِيمٍ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 41,
+        "uthmaniText": "وَمَا هُوَ بِقَوْلِ شَاعِرٍ ۚ قَلِيلًا مَّا تُؤْمِنُونَ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 42,
+        "uthmaniText": "وَلَا بِقَوْلِ كَاهِنٍ ۚ قَلِيلًا مَّا تَذَكَّرُونَ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 43,
+        "uthmaniText": "تَنزِيلٌ مِّن رَّبِّ ٱلْعَـٰلَمِينَ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 44,
+        "uthmaniText": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ ٱلْأَقَاوِيلِ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 45,
+        "uthmaniText": "لَأَخَذْنَا مِنْهُ بِٱلْيَمِينِ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 46,
+        "uthmaniText": "ثُمَّ لَقَطَعْنَا مِنْهُ ٱلْوَتِينَ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 47,
+        "uthmaniText": "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَـٰجِزِينَ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 48,
+        "uthmaniText": "وَإِنَّهُۥ لَتَذْكِرَةٌ لِّلْمُتَّقِينَ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 49,
+        "uthmaniText": "وَإِنَّا لَنَعْلَمُ أَنَّ مِنكُم مُّكَذِّبِينَ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 50,
+        "uthmaniText": "وَإِنَّهُۥ لَحَسْرَةٌ عَلَى ٱلْكَـٰفِرِينَ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 51,
+        "uthmaniText": "وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      },
+      {
+        "surahNumber": 69,
+        "ayahNumber": 52,
+        "uthmaniText": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+        "juzNumber": 29,
+        "pageNumber": 568
+      }
+    ]
+  }
+}

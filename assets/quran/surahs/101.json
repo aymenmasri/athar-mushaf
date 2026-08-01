@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 101,
+    "arabicName": "القارعة",
+    "transliteratedName": "Al-Qaari'a",
+    "englishName": "The Calamity",
+    "revelationType": "makkah",
+    "ayahCount": 11,
+    "verses": [
+      {
+        "surahNumber": 101,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 101,
+        "ayahNumber": 2,
+        "uthmaniText": "مَا ٱلْقَارِعَةُ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 101,
+        "ayahNumber": 3,
+        "uthmaniText": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 101,
+        "ayahNumber": 4,
+        "uthmaniText": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 101,
+        "ayahNumber": 5,
+        "uthmaniText": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 101,
+        "ayahNumber": 6,
+        "uthmaniText": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 101,
+        "ayahNumber": 7,
+        "uthmaniText": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 101,
+        "ayahNumber": 8,
+        "uthmaniText": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 101,
+        "ayahNumber": 9,
+        "uthmaniText": "فَأُمُّهُۥ هَاوِيَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 101,
+        "ayahNumber": 10,
+        "uthmaniText": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 101,
+        "ayahNumber": 11,
+        "uthmaniText": "نَارٌ حَامِيَةٌۢ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      }
+    ]
+  }
+}

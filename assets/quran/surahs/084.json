@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 84,
+    "arabicName": "الإنشقاق",
+    "transliteratedName": "Al-Inshiqaaq",
+    "englishName": "The Splitting Open",
+    "revelationType": "makkah",
+    "ayahCount": 25,
+    "verses": [
+      {
+        "surahNumber": 84,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 2,
+        "uthmaniText": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 3,
+        "uthmaniText": "وَإِذَا ٱلْأَرْضُ مُدَّتْ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 4,
+        "uthmaniText": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 5,
+        "uthmaniText": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 6,
+        "uthmaniText": "يَـٰٓأَيُّهَا ٱلْإِنسَـٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًا فَمُلَـٰقِيهِ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 7,
+        "uthmaniText": "فَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 8,
+        "uthmaniText": "فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 9,
+        "uthmaniText": "وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ مَسْرُورًا",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 10,
+        "uthmaniText": "وَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ وَرَآءَ ظَهْرِهِۦ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 11,
+        "uthmaniText": "فَسَوْفَ يَدْعُوا۟ ثُبُورًا",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 12,
+        "uthmaniText": "وَيَصْلَىٰ سَعِيرًا",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 13,
+        "uthmaniText": "إِنَّهُۥ كَانَ فِىٓ أَهْلِهِۦ مَسْرُورًا",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 14,
+        "uthmaniText": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 15,
+        "uthmaniText": "بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًا",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 16,
+        "uthmaniText": "فَلَآ أُقْسِمُ بِٱلشَّفَقِ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 17,
+        "uthmaniText": "وَٱلَّيْلِ وَمَا وَسَقَ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 18,
+        "uthmaniText": "وَٱلْقَمَرِ إِذَا ٱتَّسَقَ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 19,
+        "uthmaniText": "لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 20,
+        "uthmaniText": "فَمَا لَهُمْ لَا يُؤْمِنُونَ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 21,
+        "uthmaniText": "وَإِذَا قُرِئَ عَلَيْهِمُ ٱلْقُرْءَانُ لَا يَسْجُدُونَ ۩",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 22,
+        "uthmaniText": "بَلِ ٱلَّذِينَ كَفَرُوا۟ يُكَذِّبُونَ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 23,
+        "uthmaniText": "وَٱللَّهُ أَعْلَمُ بِمَا يُوعُونَ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 24,
+        "uthmaniText": "فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 84,
+        "ayahNumber": 25,
+        "uthmaniText": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 92,
+    "arabicName": "الليل",
+    "transliteratedName": "Al-Lail",
+    "englishName": "The Night",
+    "revelationType": "makkah",
+    "ayahCount": 21,
+    "verses": [
+      {
+        "surahNumber": 92,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلَّيْلِ إِذَا يَغْشَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 2,
+        "uthmaniText": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 3,
+        "uthmaniText": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 4,
+        "uthmaniText": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 5,
+        "uthmaniText": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 6,
+        "uthmaniText": "وَصَدَّقَ بِٱلْحُسْنَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 7,
+        "uthmaniText": "فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 8,
+        "uthmaniText": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 9,
+        "uthmaniText": "وَكَذَّبَ بِٱلْحُسْنَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 10,
+        "uthmaniText": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 11,
+        "uthmaniText": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 12,
+        "uthmaniText": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 13,
+        "uthmaniText": "وَإِنَّ لَنَا لَلْـَٔاخِرَةَ وَٱلْأُولَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 14,
+        "uthmaniText": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ",
+        "juzNumber": 30,
+        "pageNumber": 595
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 15,
+        "uthmaniText": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 16,
+        "uthmaniText": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 17,
+        "uthmaniText": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 18,
+        "uthmaniText": "ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 19,
+        "uthmaniText": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 20,
+        "uthmaniText": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 92,
+        "ayahNumber": 21,
+        "uthmaniText": "وَلَسَوْفَ يَرْضَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      }
+    ]
+  }
+}

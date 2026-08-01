@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 107,
+    "arabicName": "الماعون",
+    "transliteratedName": "Al-Maa'un",
+    "englishName": "Almsgiving",
+    "revelationType": "makkah",
+    "ayahCount": 7,
+    "verses": [
+      {
+        "surahNumber": 107,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+        "juzNumber": 30,
+        "pageNumber": 602
+      },
+      {
+        "surahNumber": 107,
+        "ayahNumber": 2,
+        "uthmaniText": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+        "juzNumber": 30,
+        "pageNumber": 602
+      },
+      {
+        "surahNumber": 107,
+        "ayahNumber": 3,
+        "uthmaniText": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+        "juzNumber": 30,
+        "pageNumber": 602
+      },
+      {
+        "surahNumber": 107,
+        "ayahNumber": 4,
+        "uthmaniText": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+        "juzNumber": 30,
+        "pageNumber": 602
+      },
+      {
+        "surahNumber": 107,
+        "ayahNumber": 5,
+        "uthmaniText": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+        "juzNumber": 30,
+        "pageNumber": 602
+      },
+      {
+        "surahNumber": 107,
+        "ayahNumber": 6,
+        "uthmaniText": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+        "juzNumber": 30,
+        "pageNumber": 602
+      },
+      {
+        "surahNumber": 107,
+        "ayahNumber": 7,
+        "uthmaniText": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+        "juzNumber": 30,
+        "pageNumber": 602
+      }
+    ]
+  }
+}

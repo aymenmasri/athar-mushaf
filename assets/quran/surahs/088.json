@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 88,
+    "arabicName": "الغاشية",
+    "transliteratedName": "Al-Ghaashiya",
+    "englishName": "The Overwhelming",
+    "revelationType": "makkah",
+    "ayahCount": 26,
+    "verses": [
+      {
+        "surahNumber": 88,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 2,
+        "uthmaniText": "وُجُوهٌ يَوْمَئِذٍ خَـٰشِعَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 3,
+        "uthmaniText": "عَامِلَةٌ نَّاصِبَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 4,
+        "uthmaniText": "تَصْلَىٰ نَارًا حَامِيَةً",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 5,
+        "uthmaniText": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 6,
+        "uthmaniText": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 7,
+        "uthmaniText": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 8,
+        "uthmaniText": "وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 9,
+        "uthmaniText": "لِّسَعْيِهَا رَاضِيَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 10,
+        "uthmaniText": "فِى جَنَّةٍ عَالِيَةٍ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 11,
+        "uthmaniText": "لَّا تَسْمَعُ فِيهَا لَـٰغِيَةً",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 12,
+        "uthmaniText": "فِيهَا عَيْنٌ جَارِيَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 13,
+        "uthmaniText": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 14,
+        "uthmaniText": "وَأَكْوَابٌ مَّوْضُوعَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 15,
+        "uthmaniText": "وَنَمَارِقُ مَصْفُوفَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 16,
+        "uthmaniText": "وَزَرَابِىُّ مَبْثُوثَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 17,
+        "uthmaniText": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 18,
+        "uthmaniText": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 19,
+        "uthmaniText": "وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 20,
+        "uthmaniText": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 21,
+        "uthmaniText": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 22,
+        "uthmaniText": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 23,
+        "uthmaniText": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 24,
+        "uthmaniText": "فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 25,
+        "uthmaniText": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 88,
+        "ayahNumber": 26,
+        "uthmaniText": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
+        "juzNumber": 30,
+        "pageNumber": 592
+      }
+    ]
+  }
+}

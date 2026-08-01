@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 87,
+    "arabicName": "الأعلى",
+    "transliteratedName": "Al-A'laa",
+    "englishName": "The Most High",
+    "revelationType": "makkah",
+    "ayahCount": 19,
+    "verses": [
+      {
+        "surahNumber": 87,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 2,
+        "uthmaniText": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 3,
+        "uthmaniText": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 4,
+        "uthmaniText": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 5,
+        "uthmaniText": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 6,
+        "uthmaniText": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 7,
+        "uthmaniText": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 8,
+        "uthmaniText": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 9,
+        "uthmaniText": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 10,
+        "uthmaniText": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 11,
+        "uthmaniText": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 12,
+        "uthmaniText": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 13,
+        "uthmaniText": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 14,
+        "uthmaniText": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 15,
+        "uthmaniText": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 16,
+        "uthmaniText": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 17,
+        "uthmaniText": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 18,
+        "uthmaniText": "إِنَّ هَـٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      },
+      {
+        "surahNumber": 87,
+        "ayahNumber": 19,
+        "uthmaniText": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 592
+      }
+    ]
+  }
+}

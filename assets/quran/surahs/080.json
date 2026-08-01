@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 80,
+    "arabicName": "عبس",
+    "transliteratedName": "Abasa",
+    "englishName": "He frowned",
+    "revelationType": "makkah",
+    "ayahCount": 42,
+    "verses": [
+      {
+        "surahNumber": 80,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ عَبَسَ وَتَوَلَّىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 2,
+        "uthmaniText": "أَن جَآءَهُ ٱلْأَعْمَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 3,
+        "uthmaniText": "وَمَا يُدْرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 4,
+        "uthmaniText": "أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 5,
+        "uthmaniText": "أَمَّا مَنِ ٱسْتَغْنَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 6,
+        "uthmaniText": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 7,
+        "uthmaniText": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّىٰ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 8,
+        "uthmaniText": "وَأَمَّا مَن جَآءَكَ يَسْعَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 9,
+        "uthmaniText": "وَهُوَ يَخْشَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 10,
+        "uthmaniText": "فَأَنتَ عَنْهُ تَلَهَّىٰ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 11,
+        "uthmaniText": "كَلَّآ إِنَّهَا تَذْكِرَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 12,
+        "uthmaniText": "فَمَن شَآءَ ذَكَرَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 13,
+        "uthmaniText": "فِى صُحُفٍ مُّكَرَّمَةٍ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 14,
+        "uthmaniText": "مَّرْفُوعَةٍ مُّطَهَّرَةٍۭ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 15,
+        "uthmaniText": "بِأَيْدِى سَفَرَةٍ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 16,
+        "uthmaniText": "كِرَامٍۭ بَرَرَةٍ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 17,
+        "uthmaniText": "قُتِلَ ٱلْإِنسَـٰنُ مَآ أَكْفَرَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 18,
+        "uthmaniText": "مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 19,
+        "uthmaniText": "مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 20,
+        "uthmaniText": "ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 21,
+        "uthmaniText": "ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 22,
+        "uthmaniText": "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 23,
+        "uthmaniText": "كَلَّا لَمَّا يَقْضِ مَآ أَمَرَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 24,
+        "uthmaniText": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ إِلَىٰ طَعَامِهِۦٓ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 25,
+        "uthmaniText": "أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّا",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 26,
+        "uthmaniText": "ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّا",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 27,
+        "uthmaniText": "فَأَنۢبَتْنَا فِيهَا حَبًّا",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 28,
+        "uthmaniText": "وَعِنَبًا وَقَضْبًا",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 29,
+        "uthmaniText": "وَزَيْتُونًا وَنَخْلًا",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 30,
+        "uthmaniText": "وَحَدَآئِقَ غُلْبًا",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 31,
+        "uthmaniText": "وَفَـٰكِهَةً وَأَبًّا",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 32,
+        "uthmaniText": "مَّتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 33,
+        "uthmaniText": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 34,
+        "uthmaniText": "يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 35,
+        "uthmaniText": "وَأُمِّهِۦ وَأَبِيهِ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 36,
+        "uthmaniText": "وَصَـٰحِبَتِهِۦ وَبَنِيهِ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 37,
+        "uthmaniText": "لِكُلِّ ٱمْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 38,
+        "uthmaniText": "وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 39,
+        "uthmaniText": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 40,
+        "uthmaniText": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 41,
+        "uthmaniText": "تَرْهَقُهَا قَتَرَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      },
+      {
+        "surahNumber": 80,
+        "ayahNumber": 42,
+        "uthmaniText": "أُو۟لَـٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ",
+        "juzNumber": 30,
+        "pageNumber": 585
+      }
+    ]
+  }
+}

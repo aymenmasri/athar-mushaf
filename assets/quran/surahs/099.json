@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 99,
+    "arabicName": "الزلزلة",
+    "transliteratedName": "Az-Zalzala",
+    "englishName": "The Earthquake",
+    "revelationType": "madinah",
+    "ayahCount": 8,
+    "verses": [
+      {
+        "surahNumber": 99,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+        "juzNumber": 30,
+        "pageNumber": 599
+      },
+      {
+        "surahNumber": 99,
+        "ayahNumber": 2,
+        "uthmaniText": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+        "juzNumber": 30,
+        "pageNumber": 599
+      },
+      {
+        "surahNumber": 99,
+        "ayahNumber": 3,
+        "uthmaniText": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا",
+        "juzNumber": 30,
+        "pageNumber": 599
+      },
+      {
+        "surahNumber": 99,
+        "ayahNumber": 4,
+        "uthmaniText": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
+        "juzNumber": 30,
+        "pageNumber": 599
+      },
+      {
+        "surahNumber": 99,
+        "ayahNumber": 5,
+        "uthmaniText": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+        "juzNumber": 30,
+        "pageNumber": 599
+      },
+      {
+        "surahNumber": 99,
+        "ayahNumber": 6,
+        "uthmaniText": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ",
+        "juzNumber": 30,
+        "pageNumber": 599
+      },
+      {
+        "surahNumber": 99,
+        "ayahNumber": 7,
+        "uthmaniText": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 599
+      },
+      {
+        "surahNumber": 99,
+        "ayahNumber": 8,
+        "uthmaniText": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 599
+      }
+    ]
+  }
+}

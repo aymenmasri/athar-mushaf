@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 104,
+    "arabicName": "الهمزة",
+    "transliteratedName": "Al-Humaza",
+    "englishName": "The Traducer",
+    "revelationType": "makkah",
+    "ayahCount": 9,
+    "verses": [
+      {
+        "surahNumber": 104,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 104,
+        "ayahNumber": 2,
+        "uthmaniText": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 104,
+        "ayahNumber": 3,
+        "uthmaniText": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 104,
+        "ayahNumber": 4,
+        "uthmaniText": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 104,
+        "ayahNumber": 5,
+        "uthmaniText": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 104,
+        "ayahNumber": 6,
+        "uthmaniText": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 104,
+        "ayahNumber": 7,
+        "uthmaniText": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 104,
+        "ayahNumber": 8,
+        "uthmaniText": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 104,
+        "ayahNumber": 9,
+        "uthmaniText": "فِى عَمَدٍ مُّمَدَّدَةٍۭ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      }
+    ]
+  }
+}

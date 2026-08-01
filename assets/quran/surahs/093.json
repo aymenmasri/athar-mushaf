@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 93,
+    "arabicName": "الضحى",
+    "transliteratedName": "Ad-Dhuhaa",
+    "englishName": "The Morning Hours",
+    "revelationType": "makkah",
+    "ayahCount": 11,
+    "verses": [
+      {
+        "surahNumber": 93,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 93,
+        "ayahNumber": 2,
+        "uthmaniText": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 93,
+        "ayahNumber": 3,
+        "uthmaniText": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 93,
+        "ayahNumber": 4,
+        "uthmaniText": "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 93,
+        "ayahNumber": 5,
+        "uthmaniText": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 93,
+        "ayahNumber": 6,
+        "uthmaniText": "أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 93,
+        "ayahNumber": 7,
+        "uthmaniText": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 93,
+        "ayahNumber": 8,
+        "uthmaniText": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 93,
+        "ayahNumber": 9,
+        "uthmaniText": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 93,
+        "ayahNumber": 10,
+        "uthmaniText": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      },
+      {
+        "surahNumber": 93,
+        "ayahNumber": 11,
+        "uthmaniText": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+        "juzNumber": 30,
+        "pageNumber": 596
+      }
+    ]
+  }
+}

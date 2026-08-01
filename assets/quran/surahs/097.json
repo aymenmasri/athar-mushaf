@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 97,
+    "arabicName": "القدر",
+    "transliteratedName": "Al-Qadr",
+    "englishName": "The Power, Fate",
+    "revelationType": "makkah",
+    "ayahCount": 5,
+    "verses": [
+      {
+        "surahNumber": 97,
+        "ayahNumber": 1,
+        "uthmaniText": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَـٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+        "juzNumber": 30,
+        "pageNumber": 598
+      },
+      {
+        "surahNumber": 97,
+        "ayahNumber": 2,
+        "uthmaniText": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+        "juzNumber": 30,
+        "pageNumber": 598
+      },
+      {
+        "surahNumber": 97,
+        "ayahNumber": 3,
+        "uthmaniText": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
+        "juzNumber": 30,
+        "pageNumber": 598
+      },
+      {
+        "surahNumber": 97,
+        "ayahNumber": 4,
+        "uthmaniText": "تَنَزَّلُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
+        "juzNumber": 30,
+        "pageNumber": 598
+      },
+      {
+        "surahNumber": 97,
+        "ayahNumber": 5,
+        "uthmaniText": "سَلَـٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+        "juzNumber": 30,
+        "pageNumber": 598
+      }
+    ]
+  }
+}

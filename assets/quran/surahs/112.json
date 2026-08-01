@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 112,
+    "arabicName": "الإخلاص",
+    "transliteratedName": "Al-Ikhlaas",
+    "englishName": "Sincerity",
+    "revelationType": "makkah",
+    "ayahCount": 4,
+    "verses": [
+      {
+        "surahNumber": 112,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+        "juzNumber": 30,
+        "pageNumber": 604
+      },
+      {
+        "surahNumber": 112,
+        "ayahNumber": 2,
+        "uthmaniText": "ٱللَّهُ ٱلصَّمَدُ",
+        "juzNumber": 30,
+        "pageNumber": 604
+      },
+      {
+        "surahNumber": 112,
+        "ayahNumber": 3,
+        "uthmaniText": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+        "juzNumber": 30,
+        "pageNumber": 604
+      },
+      {
+        "surahNumber": 112,
+        "ayahNumber": 4,
+        "uthmaniText": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+        "juzNumber": 30,
+        "pageNumber": 604
+      }
+    ]
+  }
+}

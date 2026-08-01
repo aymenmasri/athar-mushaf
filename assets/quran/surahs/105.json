@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 105,
+    "arabicName": "الفيل",
+    "transliteratedName": "Al-Fil",
+    "englishName": "The Elephant",
+    "revelationType": "makkah",
+    "ayahCount": 5,
+    "verses": [
+      {
+        "surahNumber": 105,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 105,
+        "ayahNumber": 2,
+        "uthmaniText": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 105,
+        "ayahNumber": 3,
+        "uthmaniText": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 105,
+        "ayahNumber": 4,
+        "uthmaniText": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      },
+      {
+        "surahNumber": 105,
+        "ayahNumber": 5,
+        "uthmaniText": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+        "juzNumber": 30,
+        "pageNumber": 601
+      }
+    ]
+  }
+}

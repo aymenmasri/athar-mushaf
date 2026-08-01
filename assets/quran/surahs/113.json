@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 113,
+    "arabicName": "الفلق",
+    "transliteratedName": "Al-Falaq",
+    "englishName": "The Dawn",
+    "revelationType": "makkah",
+    "ayahCount": 5,
+    "verses": [
+      {
+        "surahNumber": 113,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+        "juzNumber": 30,
+        "pageNumber": 604
+      },
+      {
+        "surahNumber": 113,
+        "ayahNumber": 2,
+        "uthmaniText": "مِن شَرِّ مَا خَلَقَ",
+        "juzNumber": 30,
+        "pageNumber": 604
+      },
+      {
+        "surahNumber": 113,
+        "ayahNumber": 3,
+        "uthmaniText": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+        "juzNumber": 30,
+        "pageNumber": 604
+      },
+      {
+        "surahNumber": 113,
+        "ayahNumber": 4,
+        "uthmaniText": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ",
+        "juzNumber": 30,
+        "pageNumber": 604
+      },
+      {
+        "surahNumber": 113,
+        "ayahNumber": 5,
+        "uthmaniText": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+        "juzNumber": 30,
+        "pageNumber": 604
+      }
+    ]
+  }
+}

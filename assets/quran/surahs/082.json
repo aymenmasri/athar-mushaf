@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 82,
+    "arabicName": "الإنفطار",
+    "transliteratedName": "Al-Infitaar",
+    "englishName": "The Cleaving",
+    "revelationType": "makkah",
+    "ayahCount": 19,
+    "verses": [
+      {
+        "surahNumber": 82,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 2,
+        "uthmaniText": "وَإِذَا ٱلْكَوَاكِبُ ٱنتَثَرَتْ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 3,
+        "uthmaniText": "وَإِذَا ٱلْبِحَارُ فُجِّرَتْ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 4,
+        "uthmaniText": "وَإِذَا ٱلْقُبُورُ بُعْثِرَتْ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 5,
+        "uthmaniText": "عَلِمَتْ نَفْسٌ مَّا قَدَّمَتْ وَأَخَّرَتْ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 6,
+        "uthmaniText": "يَـٰٓأَيُّهَا ٱلْإِنسَـٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلْكَرِيمِ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 7,
+        "uthmaniText": "ٱلَّذِى خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 8,
+        "uthmaniText": "فِىٓ أَىِّ صُورَةٍ مَّا شَآءَ رَكَّبَكَ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 9,
+        "uthmaniText": "كَلَّا بَلْ تُكَذِّبُونَ بِٱلدِّينِ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 10,
+        "uthmaniText": "وَإِنَّ عَلَيْكُمْ لَحَـٰفِظِينَ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 11,
+        "uthmaniText": "كِرَامًا كَـٰتِبِينَ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 12,
+        "uthmaniText": "يَعْلَمُونَ مَا تَفْعَلُونَ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 13,
+        "uthmaniText": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 14,
+        "uthmaniText": "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 15,
+        "uthmaniText": "يَصْلَوْنَهَا يَوْمَ ٱلدِّينِ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 16,
+        "uthmaniText": "وَمَا هُمْ عَنْهَا بِغَآئِبِينَ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 17,
+        "uthmaniText": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 18,
+        "uthmaniText": "ثُمَّ مَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 82,
+        "ayahNumber": 19,
+        "uthmaniText": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْـًٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍ لِّلَّهِ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      }
+    ]
+  }
+}

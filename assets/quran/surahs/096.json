@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 96,
+    "arabicName": "العلق",
+    "transliteratedName": "Al-Alaq",
+    "englishName": "The Clot",
+    "revelationType": "makkah",
+    "ayahCount": 19,
+    "verses": [
+      {
+        "surahNumber": 96,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 2,
+        "uthmaniText": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 3,
+        "uthmaniText": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 4,
+        "uthmaniText": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 5,
+        "uthmaniText": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 6,
+        "uthmaniText": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 7,
+        "uthmaniText": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 8,
+        "uthmaniText": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 9,
+        "uthmaniText": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 10,
+        "uthmaniText": "عَبْدًا إِذَا صَلَّىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 11,
+        "uthmaniText": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 12,
+        "uthmaniText": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 13,
+        "uthmaniText": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 14,
+        "uthmaniText": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 15,
+        "uthmaniText": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 16,
+        "uthmaniText": "نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 17,
+        "uthmaniText": "فَلْيَدْعُ نَادِيَهُۥ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 18,
+        "uthmaniText": "سَنَدْعُ ٱلزَّبَانِيَةَ",
+        "juzNumber": 30,
+        "pageNumber": 597
+      },
+      {
+        "surahNumber": 96,
+        "ayahNumber": 19,
+        "uthmaniText": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+        "juzNumber": 30,
+        "pageNumber": 597
+      }
+    ]
+  }
+}

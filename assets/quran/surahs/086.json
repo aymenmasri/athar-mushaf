@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 86,
+    "arabicName": "الطارق",
+    "transliteratedName": "At-Taariq",
+    "englishName": "The Morning Star",
+    "revelationType": "makkah",
+    "ayahCount": 17,
+    "verses": [
+      {
+        "surahNumber": 86,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 2,
+        "uthmaniText": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 3,
+        "uthmaniText": "ٱلنَّجْمُ ٱلثَّاقِبُ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 4,
+        "uthmaniText": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 5,
+        "uthmaniText": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ مِمَّ خُلِقَ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 6,
+        "uthmaniText": "خُلِقَ مِن مَّآءٍ دَافِقٍ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 7,
+        "uthmaniText": "يَخْرُجُ مِنۢ بَيْنِ ٱلصُّلْبِ وَٱلتَّرَآئِبِ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 8,
+        "uthmaniText": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 9,
+        "uthmaniText": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 10,
+        "uthmaniText": "فَمَا لَهُۥ مِن قُوَّةٍ وَلَا نَاصِرٍ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 11,
+        "uthmaniText": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 12,
+        "uthmaniText": "وَٱلْأَرْضِ ذَاتِ ٱلصَّدْعِ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 13,
+        "uthmaniText": "إِنَّهُۥ لَقَوْلٌ فَصْلٌ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 14,
+        "uthmaniText": "وَمَا هُوَ بِٱلْهَزْلِ",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 15,
+        "uthmaniText": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 16,
+        "uthmaniText": "وَأَكِيدُ كَيْدًا",
+        "juzNumber": 30,
+        "pageNumber": 591
+      },
+      {
+        "surahNumber": 86,
+        "ayahNumber": 17,
+        "uthmaniText": "فَمَهِّلِ ٱلْكَـٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
+        "juzNumber": 30,
+        "pageNumber": 591
+      }
+    ]
+  }
+}

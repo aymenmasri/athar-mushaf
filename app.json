@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "أثر",
+    "slug": "athar-mushaf",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/athar-icon.png",
+    "scheme": "athar",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#173E34",
+        "foregroundImage": "./assets/images/athar-adaptive-foreground.png",
+        "monochromeImage": "./assets/images/athar-adaptive-foreground.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/athar-icon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "asyncRoutes": {
+            "web": "production"
+          }
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/athar-adaptive-foreground.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#FAF7EF",
+          "dark": {
+            "backgroundColor": "#10241F"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

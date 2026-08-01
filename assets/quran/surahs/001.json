@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 1,
+    "arabicName": "الفاتحة",
+    "transliteratedName": "Al-Faatiha",
+    "englishName": "The Opening",
+    "revelationType": "makkah",
+    "ayahCount": 7,
+    "verses": [
+      {
+        "surahNumber": 1,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+        "juzNumber": 1,
+        "pageNumber": 1
+      },
+      {
+        "surahNumber": 1,
+        "ayahNumber": 2,
+        "uthmaniText": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+        "juzNumber": 1,
+        "pageNumber": 1
+      },
+      {
+        "surahNumber": 1,
+        "ayahNumber": 3,
+        "uthmaniText": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+        "juzNumber": 1,
+        "pageNumber": 1
+      },
+      {
+        "surahNumber": 1,
+        "ayahNumber": 4,
+        "uthmaniText": "مَـٰلِكِ يَوْمِ ٱلدِّينِ",
+        "juzNumber": 1,
+        "pageNumber": 1
+      },
+      {
+        "surahNumber": 1,
+        "ayahNumber": 5,
+        "uthmaniText": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+        "juzNumber": 1,
+        "pageNumber": 1
+      },
+      {
+        "surahNumber": 1,
+        "ayahNumber": 6,
+        "uthmaniText": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+        "juzNumber": 1,
+        "pageNumber": 1
+      },
+      {
+        "surahNumber": 1,
+        "ayahNumber": 7,
+        "uthmaniText": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+        "juzNumber": 1,
+        "pageNumber": 1
+      }
+    ]
+  }
+}

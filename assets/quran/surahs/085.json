@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 85,
+    "arabicName": "البروج",
+    "transliteratedName": "Al-Burooj",
+    "englishName": "The Constellations",
+    "revelationType": "makkah",
+    "ayahCount": 22,
+    "verses": [
+      {
+        "surahNumber": 85,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 2,
+        "uthmaniText": "وَٱلْيَوْمِ ٱلْمَوْعُودِ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 3,
+        "uthmaniText": "وَشَاهِدٍ وَمَشْهُودٍ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 4,
+        "uthmaniText": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 5,
+        "uthmaniText": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 6,
+        "uthmaniText": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 7,
+        "uthmaniText": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 8,
+        "uthmaniText": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 9,
+        "uthmaniText": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 10,
+        "uthmaniText": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 11,
+        "uthmaniText": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 12,
+        "uthmaniText": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 13,
+        "uthmaniText": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 14,
+        "uthmaniText": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 15,
+        "uthmaniText": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 16,
+        "uthmaniText": "فَعَّالٌ لِّمَا يُرِيدُ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 17,
+        "uthmaniText": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 18,
+        "uthmaniText": "فِرْعَوْنَ وَثَمُودَ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 19,
+        "uthmaniText": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 20,
+        "uthmaniText": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 21,
+        "uthmaniText": "بَلْ هُوَ قُرْءَانٌ مَّجِيدٌ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      },
+      {
+        "surahNumber": 85,
+        "ayahNumber": 22,
+        "uthmaniText": "فِى لَوْحٍ مَّحْفُوظٍۭ",
+        "juzNumber": 30,
+        "pageNumber": 590
+      }
+    ]
+  }
+}

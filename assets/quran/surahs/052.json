@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 52,
+    "arabicName": "الطور",
+    "transliteratedName": "At-Tur",
+    "englishName": "The Mount",
+    "revelationType": "makkah",
+    "ayahCount": 49,
+    "verses": [
+      {
+        "surahNumber": 52,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلطُّورِ",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 2,
+        "uthmaniText": "وَكِتَـٰبٍ مَّسْطُورٍ",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 3,
+        "uthmaniText": "فِى رَقٍّ مَّنشُورٍ",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 4,
+        "uthmaniText": "وَٱلْبَيْتِ ٱلْمَعْمُورِ",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 5,
+        "uthmaniText": "وَٱلسَّقْفِ ٱلْمَرْفُوعِ",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 6,
+        "uthmaniText": "وَٱلْبَحْرِ ٱلْمَسْجُورِ",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 7,
+        "uthmaniText": "إِنَّ عَذَابَ رَبِّكَ لَوَٰقِعٌ",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 8,
+        "uthmaniText": "مَّا لَهُۥ مِن دَافِعٍ",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 9,
+        "uthmaniText": "يَوْمَ تَمُورُ ٱلسَّمَآءُ مَوْرًا",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 10,
+        "uthmaniText": "وَتَسِيرُ ٱلْجِبَالُ سَيْرًا",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 11,
+        "uthmaniText": "فَوَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 12,
+        "uthmaniText": "ٱلَّذِينَ هُمْ فِى خَوْضٍ يَلْعَبُونَ",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 13,
+        "uthmaniText": "يَوْمَ يُدَعُّونَ إِلَىٰ نَارِ جَهَنَّمَ دَعًّا",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 14,
+        "uthmaniText": "هَـٰذِهِ ٱلنَّارُ ٱلَّتِى كُنتُم بِهَا تُكَذِّبُونَ",
+        "juzNumber": 27,
+        "pageNumber": 523
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 15,
+        "uthmaniText": "أَفَسِحْرٌ هَـٰذَآ أَمْ أَنتُمْ لَا تُبْصِرُونَ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 16,
+        "uthmaniText": "ٱصْلَوْهَا فَٱصْبِرُوٓا۟ أَوْ لَا تَصْبِرُوا۟ سَوَآءٌ عَلَيْكُمْ ۖ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 17,
+        "uthmaniText": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍ وَنَعِيمٍ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 18,
+        "uthmaniText": "فَـٰكِهِينَ بِمَآ ءَاتَىٰهُمْ رَبُّهُمْ وَوَقَىٰهُمْ رَبُّهُمْ عَذَابَ ٱلْجَحِيمِ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 19,
+        "uthmaniText": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 20,
+        "uthmaniText": "مُتَّكِـِٔينَ عَلَىٰ سُرُرٍ مَّصْفُوفَةٍ ۖ وَزَوَّجْنَـٰهُم بِحُورٍ عِينٍ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 21,
+        "uthmaniText": "وَٱلَّذِينَ ءَامَنُوا۟ وَٱتَّبَعَتْهُمْ ذُرِّيَّتُهُم بِإِيمَـٰنٍ أَلْحَقْنَا بِهِمْ ذُرِّيَّتَهُمْ وَمَآ أَلَتْنَـٰهُم مِّنْ عَمَلِهِم مِّن شَىْءٍ ۚ كُلُّ ٱمْرِئٍۭ بِمَا كَسَبَ رَهِينٌ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 22,
+        "uthmaniText": "وَأَمْدَدْنَـٰهُم بِفَـٰكِهَةٍ وَلَحْمٍ مِّمَّا يَشْتَهُونَ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 23,
+        "uthmaniText": "يَتَنَـٰزَعُونَ فِيهَا كَأْسًا لَّا لَغْوٌ فِيهَا وَلَا تَأْثِيمٌ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 24,
+        "uthmaniText": "وَيَطُوفُ عَلَيْهِمْ غِلْمَانٌ لَّهُمْ كَأَنَّهُمْ لُؤْلُؤٌ مَّكْنُونٌ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 25,
+        "uthmaniText": "وَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍ يَتَسَآءَلُونَ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 26,
+        "uthmaniText": "قَالُوٓا۟ إِنَّا كُنَّا قَبْلُ فِىٓ أَهْلِنَا مُشْفِقِينَ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 27,
+        "uthmaniText": "فَمَنَّ ٱللَّهُ عَلَيْنَا وَوَقَىٰنَا عَذَابَ ٱلسَّمُومِ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 28,
+        "uthmaniText": "إِنَّا كُنَّا مِن قَبْلُ نَدْعُوهُ ۖ إِنَّهُۥ هُوَ ٱلْبَرُّ ٱلرَّحِيمُ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 29,
+        "uthmaniText": "فَذَكِّرْ فَمَآ أَنتَ بِنِعْمَتِ رَبِّكَ بِكَاهِنٍ وَلَا مَجْنُونٍ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 30,
+        "uthmaniText": "أَمْ يَقُولُونَ شَاعِرٌ نَّتَرَبَّصُ بِهِۦ رَيْبَ ٱلْمَنُونِ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 31,
+        "uthmaniText": "قُلْ تَرَبَّصُوا۟ فَإِنِّى مَعَكُم مِّنَ ٱلْمُتَرَبِّصِينَ",
+        "juzNumber": 27,
+        "pageNumber": 524
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 32,
+        "uthmaniText": "أَمْ تَأْمُرُهُمْ أَحْلَـٰمُهُم بِهَـٰذَآ ۚ أَمْ هُمْ قَوْمٌ طَاغُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 33,
+        "uthmaniText": "أَمْ يَقُولُونَ تَقَوَّلَهُۥ ۚ بَل لَّا يُؤْمِنُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 34,
+        "uthmaniText": "فَلْيَأْتُوا۟ بِحَدِيثٍ مِّثْلِهِۦٓ إِن كَانُوا۟ صَـٰدِقِينَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 35,
+        "uthmaniText": "أَمْ خُلِقُوا۟ مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ ٱلْخَـٰلِقُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 36,
+        "uthmaniText": "أَمْ خَلَقُوا۟ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۚ بَل لَّا يُوقِنُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 37,
+        "uthmaniText": "أَمْ عِندَهُمْ خَزَآئِنُ رَبِّكَ أَمْ هُمُ ٱلْمُصَۣيْطِرُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 38,
+        "uthmaniText": "أَمْ لَهُمْ سُلَّمٌ يَسْتَمِعُونَ فِيهِ ۖ فَلْيَأْتِ مُسْتَمِعُهُم بِسُلْطَـٰنٍ مُّبِينٍ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 39,
+        "uthmaniText": "أَمْ لَهُ ٱلْبَنَـٰتُ وَلَكُمُ ٱلْبَنُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 40,
+        "uthmaniText": "أَمْ تَسْـَٔلُهُمْ أَجْرًا فَهُم مِّن مَّغْرَمٍ مُّثْقَلُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 41,
+        "uthmaniText": "أَمْ عِندَهُمُ ٱلْغَيْبُ فَهُمْ يَكْتُبُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 42,
+        "uthmaniText": "أَمْ يُرِيدُونَ كَيْدًا ۖ فَٱلَّذِينَ كَفَرُوا۟ هُمُ ٱلْمَكِيدُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 43,
+        "uthmaniText": "أَمْ لَهُمْ إِلَـٰهٌ غَيْرُ ٱللَّهِ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 44,
+        "uthmaniText": "وَإِن يَرَوْا۟ كِسْفًا مِّنَ ٱلسَّمَآءِ سَاقِطًا يَقُولُوا۟ سَحَابٌ مَّرْكُومٌ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 45,
+        "uthmaniText": "فَذَرْهُمْ حَتَّىٰ يُلَـٰقُوا۟ يَوْمَهُمُ ٱلَّذِى فِيهِ يُصْعَقُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 46,
+        "uthmaniText": "يَوْمَ لَا يُغْنِى عَنْهُمْ كَيْدُهُمْ شَيْـًٔا وَلَا هُمْ يُنصَرُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 47,
+        "uthmaniText": "وَإِنَّ لِلَّذِينَ ظَلَمُوا۟ عَذَابًا دُونَ ذَٰلِكَ وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 48,
+        "uthmaniText": "وَٱصْبِرْ لِحُكْمِ رَبِّكَ فَإِنَّكَ بِأَعْيُنِنَا ۖ وَسَبِّحْ بِحَمْدِ رَبِّكَ حِينَ تَقُومُ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      },
+      {
+        "surahNumber": 52,
+        "ayahNumber": 49,
+        "uthmaniText": "وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ وَإِدْبَـٰرَ ٱلنُّجُومِ",
+        "juzNumber": 27,
+        "pageNumber": 525
+      }
+    ]
+  }
+}

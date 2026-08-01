@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 102,
+    "arabicName": "التكاثر",
+    "transliteratedName": "At-Takaathur",
+    "englishName": "Competition",
+    "revelationType": "makkah",
+    "ayahCount": 8,
+    "verses": [
+      {
+        "surahNumber": 102,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 102,
+        "ayahNumber": 2,
+        "uthmaniText": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 102,
+        "ayahNumber": 3,
+        "uthmaniText": "كَلَّا سَوْفَ تَعْلَمُونَ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 102,
+        "ayahNumber": 4,
+        "uthmaniText": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 102,
+        "ayahNumber": 5,
+        "uthmaniText": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 102,
+        "ayahNumber": 6,
+        "uthmaniText": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 102,
+        "ayahNumber": 7,
+        "uthmaniText": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      },
+      {
+        "surahNumber": 102,
+        "ayahNumber": 8,
+        "uthmaniText": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+        "juzNumber": 30,
+        "pageNumber": 600
+      }
+    ]
+  }
+}

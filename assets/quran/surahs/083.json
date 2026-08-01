@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 83,
+    "arabicName": "المطففين",
+    "transliteratedName": "Al-Mutaffifin",
+    "englishName": "Defrauding",
+    "revelationType": "makkah",
+    "ayahCount": 36,
+    "verses": [
+      {
+        "surahNumber": 83,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَيْلٌ لِّلْمُطَفِّفِينَ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 2,
+        "uthmaniText": "ٱلَّذِينَ إِذَا ٱكْتَالُوا۟ عَلَى ٱلنَّاسِ يَسْتَوْفُونَ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 3,
+        "uthmaniText": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 4,
+        "uthmaniText": "أَلَا يَظُنُّ أُو۟لَـٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 5,
+        "uthmaniText": "لِيَوْمٍ عَظِيمٍ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 6,
+        "uthmaniText": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَـٰلَمِينَ",
+        "juzNumber": 30,
+        "pageNumber": 587
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 7,
+        "uthmaniText": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 8,
+        "uthmaniText": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 9,
+        "uthmaniText": "كِتَـٰبٌ مَّرْقُومٌ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 10,
+        "uthmaniText": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 11,
+        "uthmaniText": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 12,
+        "uthmaniText": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 13,
+        "uthmaniText": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَـٰتُنَا قَالَ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 14,
+        "uthmaniText": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 15,
+        "uthmaniText": "كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍ لَّمَحْجُوبُونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 16,
+        "uthmaniText": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 17,
+        "uthmaniText": "ثُمَّ يُقَالُ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 18,
+        "uthmaniText": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 19,
+        "uthmaniText": "وَمَآ أَدْرَىٰكَ مَا عِلِّيُّونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 20,
+        "uthmaniText": "كِتَـٰبٌ مَّرْقُومٌ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 21,
+        "uthmaniText": "يَشْهَدُهُ ٱلْمُقَرَّبُونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 22,
+        "uthmaniText": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 23,
+        "uthmaniText": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 24,
+        "uthmaniText": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 25,
+        "uthmaniText": "يُسْقَوْنَ مِن رَّحِيقٍ مَّخْتُومٍ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 26,
+        "uthmaniText": "خِتَـٰمُهُۥ مِسْكٌ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَـٰفِسُونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 27,
+        "uthmaniText": "وَمِزَاجُهُۥ مِن تَسْنِيمٍ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 28,
+        "uthmaniText": "عَيْنًا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 29,
+        "uthmaniText": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ ءَامَنُوا۟ يَضْحَكُونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 30,
+        "uthmaniText": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 31,
+        "uthmaniText": "وَإِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمُ ٱنقَلَبُوا۟ فَكِهِينَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 32,
+        "uthmaniText": "وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَـٰٓؤُلَآءِ لَضَآلُّونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 33,
+        "uthmaniText": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَـٰفِظِينَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 34,
+        "uthmaniText": "فَٱلْيَوْمَ ٱلَّذِينَ ءَامَنُوا۟ مِنَ ٱلْكُفَّارِ يَضْحَكُونَ",
+        "juzNumber": 30,
+        "pageNumber": 588
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 35,
+        "uthmaniText": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      },
+      {
+        "surahNumber": 83,
+        "ayahNumber": 36,
+        "uthmaniText": "هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا۟ يَفْعَلُونَ",
+        "juzNumber": 30,
+        "pageNumber": 589
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "project": "Tanzil Project",
+  "sourcePage": "https://tanzil.net/download/",
+  "licensePage": "https://tanzil.net/docs/Text_License",
+  "retrievedAt": "2026-08-01T19:46:01.000Z",
+  "termsAccepted": true,
+  "files": [
+    {
+      "role": "display",
+      "path": "source/quran-uthmani.txt",
+      "textType": "Uthmani",
+      "version": "1.1",
+      "format": "Text (with aya numbers)",
+      "options": {
+        "pauseMarks": true,
+        "sajdahSigns": true,
+        "rubElHizbSigns": false,
+        "tatweelBelowSuperscriptAlefs": true,
+        "sequentialTanweens": false
+      },
+      "downloadUrl": "https://tanzil.net/pub/download/index.php?quranType=uthmani&outType=txt-2&marks=true&sajdah=true&tatweel=true&agree=true",
+      "sha256": "6933e133dd56db778c801bf738848454e43648105a151e8d84d86a7cae39ec5f"
+    },
+    {
+      "role": "search",
+      "path": "source/quran-simple-clean.txt",
+      "textType": "Simple Clean",
+      "version": "1.1",
+      "format": "Text (with aya numbers)",
+      "options": {},
+      "downloadUrl": "https://tanzil.net/pub/download/index.php?quranType=simple-clean&outType=txt-2&agree=true",
+      "sha256": "228df2a717671aeb9d2ff573002bd28d6b3f973f4bc7153554e3a81663d67610"
+    },
+    {
+      "role": "structure",
+      "path": "source/quran-data.xml",
+      "textType": "Tanzil Quran Metadata",
+      "version": "1.0",
+      "format": "XML",
+      "options": {},
+      "downloadUrl": "https://tanzil.net/res/text/metadata/quran-data.xml",
+      "sha256": "8867c1d88191472adec9db694b3cd9f135b1a2ef580574d32cf888dcb22c5c7a"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Tanzil Quran Text",
+    "project": "Tanzil Project",
+    "version": "1.1",
+    "textType": "Uthmani",
+    "copyright": "Copyright (C) 2007-2026 Tanzil Project",
+    "license": "Creative Commons Attribution 3.0",
+    "sourceUrl": "https://tanzil.net/",
+    "licenseUrl": "https://tanzil.net/docs/Text_License"
+  },
+  "surah": {
+    "number": 109,
+    "arabicName": "الكافرون",
+    "transliteratedName": "Al-Kaafiroon",
+    "englishName": "The Disbelievers",
+    "revelationType": "makkah",
+    "ayahCount": 6,
+    "verses": [
+      {
+        "surahNumber": 109,
+        "ayahNumber": 1,
+        "uthmaniText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ",
+        "juzNumber": 30,
+        "pageNumber": 603
+      },
+      {
+        "surahNumber": 109,
+        "ayahNumber": 2,
+        "uthmaniText": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+        "juzNumber": 30,
+        "pageNumber": 603
+      },
+      {
+        "surahNumber": 109,
+        "ayahNumber": 3,
+        "uthmaniText": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+        "juzNumber": 30,
+        "pageNumber": 603
+      },
+      {
+        "surahNumber": 109,
+        "ayahNumber": 4,
+        "uthmaniText": "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ",
+        "juzNumber": 30,
+        "pageNumber": 603
+      },
+      {
+        "surahNumber": 109,
+        "ayahNumber": 5,
+        "uthmaniText": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+        "juzNumber": 30,
+        "pageNumber": 603
+      },
+      {
+        "surahNumber": 109,
+        "ayahNumber": 6,
+        "uthmaniText": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+        "juzNumber": 30,
+        "pageNumber": 603
+      }
+    ]
+  }
+}
